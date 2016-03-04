@@ -4,12 +4,7 @@
     .contest_description{
         margin-bottom:35px;
     }
-    .contest_image{
-    width:858px;
-    height:500px;
-    max-width:100%;
-  
-}
+    
     .contest_form_div{
         margin-top:20px;
         width:75%;
@@ -69,7 +64,7 @@
         {{name}}
     </div>
     <div class="inside_page_content">
-        <p class="text-center"><img class="contest_image" src="{{alt_photo_url}}" /><p>
+        <p class="text-center"><img class="contest_image" src="{{alt_photo_url}}" /></p>
      <br>
      <div class="contest_form_div">
            <p class="contest_description">{{description}}</p>
