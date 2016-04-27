@@ -182,7 +182,7 @@
    }
     .map-mouse-over{
     /*set color of store highlight and hover over for SVG map*/
-    fill: #ccd5e4;
+    fill: black;
     }
     /*inside page banners*/
     .page_banner{
