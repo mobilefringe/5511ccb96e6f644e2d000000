@@ -271,7 +271,14 @@
                 <div class="collapse navbar-collapse">              
                     <ul class="nav pull-right navbar-nav">
                         
-                         <li id="store_link"><a href="/stores">Store Directory</a></li>
+                    <li><a href="#" onclick="javascript:toggle_submenu('directory_dd');">Store Directory<span class="caret"></span></a>
+                            <div id="directory_dd" class="submenu" style="display:none">
+                                <ul>
+                                    <li><a href="/leasing">Store Directory</a></li>
+                                    <li><a href="/photos">Centre Map</a></li>
+                                </ul>    
+                            </div>
+                        </li>
                          <li id="event_link"><a href="/events">Events</a></li>
                          <li id="promotion_link"><a href="/promotions">Promotions</a></li>
                          <li id="leasing_link" class="dropdown"><a data-toggle="dropdown" class="dropdown-toggle">Leasing <span class="caret"></span></a>
