@@ -135,9 +135,9 @@
 <div class="form-group">
     <label>13. From the following list, please indicate what Merivale Mall could do to attract you to shop more often?</label>
     <div class="field-group vertical">
-        <label>1. <input type="radio" name="what_could_merival_do_to_attract_you" value="Offer Better Shops and Services" />Offer Better Shops & Services</label>
-        <label>2. <input type="radio" name="what_could_merival_do_to_attract_you" value="Host Mall-wide Sales Events"/>Host Mall-Wide Sales Events</label>
-        <label>3. <input type="radio" name="what_could_merival_do_to_attract_you" value="other" />other, please specify
+        <label><input type="radio" name="what_could_merival_do_to_attract_you" value="Offer Better Shops and Services" />Offer Better Shops & Services</label>
+        <label><input type="radio" name="what_could_merival_do_to_attract_you" value="Host Mall-wide Sales Events"/>Host Mall-Wide Sales Events</label>
+        <label><input type="radio" name="what_could_merival_do_to_attract_you" value="other" />other, please specify
             <input type="text" name="what_could_merival_do_to_attract_you_other_text" />
         </label>
     </div>
