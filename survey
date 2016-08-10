@@ -1,8 +1,7 @@
 <div id="main_content">
     <ul class="breadcrumb">
         <li><a href="/home">Home</a> </li>
-        <li><a href="/leasing">Leasing</a> </li>
-        <li class="active">Photos</li>
+        <li><a href="/survey">Survey</a> </li>
     </ul>
 
     <div class="page_banner">Survey</div>
