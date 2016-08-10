@@ -143,17 +143,20 @@
     </div>
 </div>
 
+<div class="form-group">
+    <label>14. When buying clothing for yourself, which of the following best describes you?</label>
+    <div class="field-group vertical">
+        <label><input type="radio" name="when_buying_clothing_for_yourself" value="Price and value are important to me" />Price and value are important to me</label>
+        <label><input type="radio" name="when_buying_clothing_for_yourself" value="I prefer brand-name items and buy them on sale"/>I prefer brand-name items and buy them on sale</label>
+        <label><input type="radio" name="when_buying_clothing_for_yourself" value="other" />I always buy brand-name goods. I want my clothing to make a statement.</label>
+    </div>
+</div>
 
 
-13. 
+
 * 
 * 
-*  ---
-
-14. When buying clothing for yourself, which of the following best describes you?
-* Price and value are important to me
-* I prefer brand-name items and buy them on sale
-* I always buy brand-name goods. I want my clothing to make a statement.
+* 
 
 15. Where are you favourite places to buy fashion and accessoies?
 * Specific stores in a shopping mall
