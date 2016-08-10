@@ -125,7 +125,7 @@
 
 <div class="form-group">
     <label>12. Is there a particular store or service you would like to see open at Merival Mall?</label>
-    <div class="field-group horizontal">
+    <div class="field-group vertical">
         <label>1. <input type="text" name="store_service_to_see_at_merival_1" /></label>
         <label>2. <input type="text" name="store_service_to_see_at_merival_2" /></label>
         <label>3. <input type="text" name="store_service_to_see_at_merival_3" /></label>
@@ -133,13 +133,6 @@
 </div>
 
 
-
-
-
-12. 
-1. ---
-2. ---
-3. ---
 
 13. From the following list, please indicate what Merivale Mall could do to attract you to shop more often?
 * offer better Shops & Services
