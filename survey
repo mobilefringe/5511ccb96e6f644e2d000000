@@ -152,48 +152,99 @@
     </div>
 </div>
 
+<div class="form-group">
+    <label>15. Where are you favourite places to buy fashion and accessories??</label>
+    <div class="field-group vertical">
+        <label><input type="radio" name="" value="Specific stores in a shopping mall" />Specific stores in a shopping mall</label>
+        <label><input type="radio" name="" value="Discount department stores" />Discount department stores - i.e. Marshalls</label>
+        <label><input type="radio" name="" value="Outlet Stores" />Outlet Stores</label>        
+        <label><input type="radio" name="" value="Speciality Boutiques" />Speciality Boutiques</label>
+        <label><input type="radio" name="" value="Major Department Stores" />Major Department Stores - i.e. Hudson Bay company</label>        
+        <label><input type="radio" name="" value="Thrift Stores or Consignments Shops" />Thrift Stores or Consignments Shops</label>
+        <label><input type="radio" name="" value="Warehouse Stores" />Warehouse stores such as Costco</label>        
+    </div>
+</div>
 
+<div class="form-group">
+    <label></label>
+    <div class="field-group vertical">
+        <label><input type="radio" name="" value="" /></label>
+        <label><input type="radio" name="" value="" /></label>
+    </div>
+</div>
 
-* 
-* 
-* 
+<div class="form-group">
+    <label>16. Have you seen or heard any advertising for merival Mall in the past months or so?</label>
+    <div class="field-group vertical">
+        <label><input type="radio" name="have_see_any_advertising_for_merivale_in_past_month" value="yes" />Yes</label>
+        <label><input type="radio" name="have_see_any_advertising_for_merivale_in_past_month" value="no" />No</label>
+    </div>
+</div>
 
-15. Where are you favourite places to buy fashion and accessoies?
-* Specific stores in a shopping mall
-* Discount department stores - i.e. Marshalls
-* Outlet Stores
-* Speciality Boutiques
-* Major Department Stores - i.e. Hudson Bay company
-* Thrift Stores or Consignments Shops
-* Warehouse stores such as Costco
+<div class="form-group">
+    <label>17. If you indicated that you have seen advertising for Merival Mall in the past few months, as far as you can recall, where di you see this advertising? **Click all that apply**</label>
+    <div class="field-group vertical">
+        <label><input type="radio" name="where_have_you_see_our_advertising" value="Billboards" />Billboards</label>
+        <label><input type="radio" name="where_have_you_see_our_advertising" value="Newsprint" />Newsprint</label>
+        <label><input type="radio" name="where_have_you_see_our_advertising" value="Radio" />Radio</label>
+        <label><input type="radio" name="where_have_you_see_our_advertising" value="TV" />TV</label>
+        <label><input type="radio" name="where_have_you_see_our_advertising" value="Social Media" />Social Media - Facebook</label>
+        <label><input type="radio" name="where_have_you_see_our_advertising" value="Online" />Online- Website, E-Newsletters</label>
+        <label><input type="radio" name="where_have_you_see_our_advertising" value="Transit Shelters" />Transit Shelters</label>
+    </div>
+</div>
 
-16. Have you seen or heard any advertising for merival Mall in the past months or so?
-* yes 
-* no
+<div class="form-group">
+    <label>18. In 2015 we completed our renovation project are you ...</label>
+    <div class="field-group vertical">
+        <label><input type="radio" name="how_much_did_you_like_2015_renovations" value="Very" />Very pleased with the New  Merivale Mall</label>
+        <label><input type="radio" name="how_much_did_you_like_2015_renovations" value="Somewhat" />Somewhat pleased with the New Merivale Mall</label>
+        <label><input type="radio" name="how_much_did_you_like_2015_renovations" value="other" />Additional comments, please specify
+            <input type="text" name="how_much_did_you_like_2015_renovations_comments" />
+        </label>
+    </div>
+</div>
 
-17. If you indicated that you have seen advertising for Merival Mall in the past few months, as far as you can recall, where di you see this advertising? **Click all that apply**
-* Billboards
-* Newsprint
-* Radio
-* TV
-* Social Media - Facebook
-* Online- Website, E-Newsletters
-* Transit Shelters
-
-18. in 2015 we completed our renovation project are you ...
-* Very pleased with the New  Merivale Mall
-* Somewhat pleased with the New Merivale Mall
-* Additional comments, please specify -------------
-
-==========
-First Name*
-Last Name*
-Telephone Number
-E-Mail
-Street Address ---
-Favourite Store at Merival Mall*
-City*
-Postal Code*
-Date of Birth*
-
-
+<div class="well">
+    <div class="row">
+        <div class="col-md-6 form-group">
+            <label>First Name</label>
+            <input type="text" name="first_name" />
+        </div>
+    
+        <div class="col-md-6 form-group">
+            <label>Last Name</label>
+            <input type="text" name="last_name" />
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="col-md-6 form-group">
+            <label>Telephone Number</label>
+            <input type="text" name="telephone_number" />
+        </div>
+    
+        <div class="col-md-6 form-group">
+            <label>Email</label>
+            <input type="text" name="email" />
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="col-md-4 form-group">
+            <label>City</label>
+            <input type="text" name="city" />
+        </div>
+    
+        <div class="col-md-4 form-group">
+            <label>Postal Code</label>
+            <input type="text" name="postal_code" />
+        </div>
+    
+        <div class="col-md-4 form-group">
+            <label>Date Of Birth</label>
+            <input type="text" name="Date Of Birth" />
+        </div>
+    
+    </div>
+</div>
