@@ -238,9 +238,10 @@
             <div class="field-group vertical">
                 <label><input type="radio" name="how_much_did_you_like_2015_renovations" value="Very" />Very pleased with the New  Merivale Mall</label>
                 <label><input type="radio" name="how_much_did_you_like_2015_renovations" value="Somewhat" />Somewhat pleased with the New Merivale Mall</label>
-                <label><input type="radio" name="how_much_did_you_like_2015_renovations" value="other" />Additional comments, please specify
+                <div class="auto-text">
+                    <label><input type="radio" name="how_much_did_you_like_2015_renovations" value="other" />Additional comments, please specify</label>
                     <input type="text" name="how_much_did_you_like_2015_renovations_comments" />
-                </label>
+                </div>
             </div>
         </div>
         
