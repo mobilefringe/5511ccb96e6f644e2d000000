@@ -153,7 +153,7 @@
         <div class="form-group">
             <label>10. What are your favourite stores to shop at? **Please specify.**</label>
             <div class="field-group">
-                <input type="text" name="favourite_stores_to_shop_at" />
+                <input type="text" class="form-control" name="favourite_stores_to_shop_at" />
             </div>
         </div>
         
