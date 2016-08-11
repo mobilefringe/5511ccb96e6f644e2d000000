@@ -137,7 +137,7 @@
                 <label><input type="radio" name="main_reason_for_visit" value="Shoppers Drugmart">Shoppers Drugmart</label>
                 <label><input type="radio" name="main_reason_for_visit" value="Services">Services (banking, medical, hair/nail appointment)</label> 
                 <div class="auto-width-container">
-                <label class="left-element"><input type="radio" name="main_reason_for_visit" value="Other">Other, please specify</label>
+                    <label class="left-element"><input type="radio" name="main_reason_for_visit" value="Other">Other, please specify</label>
                     <div class="right-element">
                         <input class="form-control" type="text" name='main_reason_for_visit_other' />
                     </div>
@@ -171,9 +171,10 @@
                 <label><input type="radio" name="type_of_stores_to_see_more_of" value="Footwear">Footwear</label>
                 <label><input type="radio" name="type_of_stores_to_see_more_of" value="Higher Quality Merchandise">Higher Quality Merchandise</label>        
                 <label><input type="radio" name="type_of_stores_to_see_more_of" value="Sit-Down Resteraunts">Sit-Down Resteraunts</label>
-                <label><input type="radio" name="type_of_stores_to_see_more_of" value="other">Other, please specify
-                    <input type="text" class="form-control" name="type_of_stores_to_see_more_of_text" />
-                </label>        
+                <div class="auto-width-container">
+                    <label class="left-element"><input type="radio" name="type_of_stores_to_see_more_of" value="other">Other, please specify</label>
+                    <input type="text" class="form-control right-element" name="type_of_stores_to_see_more_of_text" />
+                </div>
             </div>
         </div>
         
