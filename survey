@@ -396,7 +396,7 @@ Winner(s) will be contacted via e-mail or by telephone. Must be 18 years or olde
         };
         
         var propertyDetails = getPropertyDetails();
-        var host = propertyDetails.mm_host
+        // var host = propertyDetails.mm_host
         
         $.ajax({
             url: host+"/contests/152/json_entry",
