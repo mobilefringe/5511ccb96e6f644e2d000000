@@ -160,7 +160,7 @@
         <div class="form-group">
             <label>11. Which stores and services do you most often visit when shopping at Merival Mall?</label>
             <div class="field-group">
-                <input type="text" name="most_visted_stores_serivces_at_merivale" />
+                <input type="text" class="form-control" name="most_visted_stores_serivces_at_merivale" />
             </div>
         </div>
         
