@@ -14,8 +14,8 @@
         <div class="form-group">
             <label>1. Gender</label>
             <div class="field-group horizontal">
-              <label><input class="form-control" type="radio" name="gender" value="male">Male</label>
-              <label><input class="form-control" type="radio" name="gender" value="female">Female</label>
+              <label><input type="radio" name="gender" value="male">Male</label>
+              <label><input type="radio" name="gender" value="female">Female</label>
             </div>
         </div>
         
