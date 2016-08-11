@@ -276,12 +276,12 @@
             <div class="row">
                 <div class="col-md-6 form-group">
                     <label>Telephone Number</label>
-                    <input class="form-conorol" type="text" name="telephone_number" />
+                    <input class="form-control" type="text" name="telephone_number" />
                 </div>
             
                 <div class="col-md-6 form-group">
                     <label>Email</label>
-                    <input class="form-conorol" type="text" name="email" />
+                    <input class="form-control" type="text" name="email" />
                 </div>
             </div>
             
@@ -293,12 +293,12 @@
             
                 <div class="col-md-4 form-group">
                     <label>Postal Code</label>
-                    <input class="form-conorol" type="text" name="postal_code" />
+                    <input class="form-control" type="text" name="postal_code" />
                 </div>
             
                 <div class="col-md-4 form-group">
                     <label>Date Of Birth</label>
-                    <input class="form-conorol" type="text" name="Date Of Birth" />
+                    <input class="form-control" type="text" name="Date Of Birth" />
                 </div>
             </div>
         </div>
