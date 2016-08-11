@@ -1,11 +1,15 @@
 <style>
+    .field-group {
+        margin-left:20px;
+    }
+    
     .field-group label {
         width: auto;
         margin-right: 100px;
     }
     
     .field-group label input[type=radio] {
-        margin-right:20px;
+        margin-right:10px;
     }
 </style>
 
