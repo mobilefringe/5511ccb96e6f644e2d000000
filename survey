@@ -1,7 +1,12 @@
 <style>
-    .field-group label{
-        width:50px;
-    }    
+    .field-group label {
+        width: auto;
+        margin-right: 100px;
+    }
+    
+    .field-group label input {
+        margin-right:20px;
+    }
 </style>
 
 <div id="main_content">
