@@ -238,7 +238,7 @@
         </div>
         
         <div class="form-group">
-            <label>17. If you indicated that you have seen advertising for Merival Mall in the past few months, as far as you can recall, where di you see this advertising? **Click all that apply**</label>
+            <label>17. If you indicated that you have seen advertising for Merival Mall in the past few months, as far as you can recall, where did you see this advertising? **Click all that apply**</label>
             <div class="field-group vertical">
                 <label><input type="radio" name="where_have_you_see_our_advertising" value="Billboards" />Billboards</label>
                 <label><input type="radio" name="where_have_you_see_our_advertising" value="Newsprint" />Newsprint</label>
