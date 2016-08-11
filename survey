@@ -66,7 +66,7 @@
     }
     
     .clear-all{
-        clear:all;
+        clear:both;
     }
     
 </style>
