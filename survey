@@ -35,6 +35,15 @@
         overflow:none;
     }
     
+    .auto-width-container .left-element {
+        float: left;
+        width:auto;
+    }
+    
+    .auto-width-container .right-element{
+        overflow:none;
+    }
+
 </style>
 
 <div id="main_content">
