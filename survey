@@ -207,9 +207,17 @@
         <div class="form-group">
             <div class="question">12. Is there a particular store or service you would like to see open at Merival Mall?</div>
             <div class="field-group vertical">
-                <label>1. <input type="text" class="form-control" name="store_service_to_see_at_merival_1" /></label>
-                <label>2. <input type="text" class="form-control" name="store_service_to_see_at_merival_2" /></label>
-                <label>3. <input type="text" class="form-control" name="store_service_to_see_at_merival_3" /></label>
+                <div class="auto-width-container">
+                    <label class="left-element">1.</label> 
+                    <div class="right-element"><input type="text" class="form-control" name="store_service_to_see_at_merival_1" /></div>
+                </div>
+                <div class="auto-width-container">
+                    <label class="left-element">2.</label>
+                    <div class="right-element"><input type="text" class="form-control" name="store_service_to_see_at_merival_2" /></div>
+                </div>
+                <div class="auto-width-container">
+                    <label class="left-element">3.</label>
+                    <div class="right-element"><input type="text" class="form-control" name="store_service_to_see_at_merival_3" /></div>
             </div>
         </div>
         
