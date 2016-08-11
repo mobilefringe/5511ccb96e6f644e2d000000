@@ -130,9 +130,10 @@
                 <label><input type="radio" name="main_reason_for_visit" value="Sport Chek">Sport Chek</label>
                 <label><input type="radio" name="main_reason_for_visit" value="Shoppers Drugmart">Shoppers Drugmart</label>
                 <label><input type="radio" name="main_reason_for_visit" value="Services">Services (banking, medical, hair/nail appointment)</label> 
-                <label><input type="radio" name="main_reason_for_visit" value="Other">Other, please specify
-                    <input type="text" name='main_reason_for_visit_other' />
-                </label>        
+                <div class="auto-width-container">
+                <label class="left-element"><input type="radio" name="main_reason_for_visit" value="Other">Other, please specify</label>
+                    <input class="right-element" type="text" name='main_reason_for_visit_other' />
+                </div>
         
             </div>
         </div>
