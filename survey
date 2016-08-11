@@ -57,7 +57,7 @@
         margin-bottom: 10px;        
     }
     
-    .auto-width-container .left-element label{
+    .auto-width-container label.left-element{
         margin-right:10px;
     }
     
