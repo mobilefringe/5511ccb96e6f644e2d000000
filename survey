@@ -65,7 +65,7 @@
         margin-right:10px;
     }
     
-    .clear-all{
+    .form-group {
         clear:both;
     }
     
