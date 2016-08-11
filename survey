@@ -88,280 +88,294 @@
         <h3>Win a $100 Gift Card to your favourite Merivale Mall Store!</h3>
         <p>Win a $100 Gift Card to your favourite Merivale Mall Store!</p>
         <div class="progress_bar"></div>
-        
-        <div class="form-group clear">
-            <label>1. Gender</label>
-            <div class="field-group horizontal">
-              <label><input type="radio" name="gender" value="male">Male</label>
-              <label><input type="radio" name="gender" value="female">Female</label>
+        <form name="survey_form">
+            <div class="form-group clear">
+                <label>1. Gender</label>
+                <div class="field-group horizontal">
+                  <label><input type="radio" name="gender" value="male">Male</label>
+                  <label><input type="radio" name="gender" value="female">Female</label>
+                </div>
             </div>
-        </div>
-        
-        <div class="form-group clear">
-            <div class="question">2. Age</div>
-            <div class="field-group horizontal">
-              <label><input type="radio" name="age" value="18-24">18-24</label>
-              <label><input type="radio" name="age" value="25-34">25-34</label>
-              <label><input type="radio" name="age" value="35-44">35-44</label>
-              <label><input type="radio" name="age" value="45-64">45-64</label>
-              <label><input type="radio" name="age" value="65+">65 or Over</label>
+            
+            <div class="form-group clear">
+                <div class="question">2. Age</div>
+                <div class="field-group horizontal">
+                  <label><input type="radio" name="age" value="18-24">18-24</label>
+                  <label><input type="radio" name="age" value="25-34">25-34</label>
+                  <label><input type="radio" name="age" value="35-44">35-44</label>
+                  <label><input type="radio" name="age" value="45-64">45-64</label>
+                  <label><input type="radio" name="age" value="65+">65 or Over</label>
+                </div>
             </div>
-        </div>
-        
-        <div class="form-group clear">
-            <label>3. Which of following statement applies to you?</label>
-            <div class="field-group vertical">
-              <label><input type="radio" name="have_year_olds_at_home" value="yes">
-                  I have children under the age of 18 living at home.
-              </label>
-              <label><input type="radio" name="have_year_olds_at_home" value="no">
-                  I do not have children under the age of 18 living at home.
-              </label>      
+            
+            <div class="form-group clear">
+                <label>3. Which of following statement applies to you?</label>
+                <div class="field-group vertical">
+                  <label><input type="radio" name="have_year_olds_at_home" value="yes">
+                      I have children under the age of 18 living at home.
+                  </label>
+                  <label><input type="radio" name="have_year_olds_at_home" value="no">
+                      I do not have children under the age of 18 living at home.
+                  </label>      
+                </div>
             </div>
-        </div>
-        
-        <div class="form-group">
-            <div class="question">4. How many times on average do you shop at Merivale Mall per month?</div>
-            <div class="field-group vertical">
-              <label><input type="radio" name="have_18_year_olds_at_home" value="yes">
-                  I have children under the age of 18 living at home.
-              </label>
-              <label><input type="radio" name="have_18_year_olds_at_home" value="no">
-                  I do not have children under the age of 18 living at home.
-              </label>      
+            
+            <div class="form-group">
+                <div class="question">4. How many times on average do you shop at Merivale Mall per month?</div>
+                <div class="field-group vertical">
+                  <label><input type="radio" name="have_18_year_olds_at_home" value="yes">
+                      I have children under the age of 18 living at home.
+                  </label>
+                  <label><input type="radio" name="have_18_year_olds_at_home" value="no">
+                      I do not have children under the age of 18 living at home.
+                  </label>      
+                </div>
             </div>
-        </div>
-        
-        <div class="form-group">
-            <div class="question">5. How long were you in the mall during your last visit at Merival Mall?</div>
-            <div class="field-group horizontal">
-                <label><input type="radio" name="length_of_last_visit" value="< 30">Less than 30 minutes</label>
-                <label><input type="radio" name="length_of_last_visit" value="< 60">Less than 60 minutes</label>
-                <label><input type="radio" name="length_of_last_visit" value="> 60">More than 60 minutes</label>
+            
+            <div class="form-group">
+                <div class="question">5. How long were you in the mall during your last visit at Merival Mall?</div>
+                <div class="field-group horizontal">
+                    <label><input type="radio" name="length_of_last_visit" value="< 30">Less than 30 minutes</label>
+                    <label><input type="radio" name="length_of_last_visit" value="< 60">Less than 60 minutes</label>
+                    <label><input type="radio" name="length_of_last_visit" value="> 60">More than 60 minutes</label>
+                </div>
             </div>
-        </div>
-        
-        <div class="form-group">
-            <label>6. What is main reason why you visit Merivale Mall</label>
-            <div class="field-group vertical">
-                <label><input type="radio" name="main_reason_for_visit" value="FarmBoy">FarmBoy</label>
-                <label><input type="radio" name="main_reason_for_visit" value="Marshalls">Marshalls</label>
-                <label><input type="radio" name="main_reason_for_visit" value="Sport Chek">Sport Chek</label>
-                <label><input type="radio" name="main_reason_for_visit" value="Shoppers Drugmart">Shoppers Drugmart</label>
-                <label><input type="radio" name="main_reason_for_visit" value="Services">Services (banking, medical, hair/nail appointment)</label> 
-                <div class="auto-width-container">
-                    <label class="left-element"><input type="radio" name="main_reason_for_visit" value="Other">Other, please specify</label>
-                    <div class="right-element">
-                        <input class="inline form-control" type="text" name='main_reason_for_visit_other' />
+            
+            <div class="form-group">
+                <label>6. What is main reason why you visit Merivale Mall</label>
+                <div class="field-group vertical">
+                    <label><input type="radio" name="main_reason_for_visit" value="FarmBoy">FarmBoy</label>
+                    <label><input type="radio" name="main_reason_for_visit" value="Marshalls">Marshalls</label>
+                    <label><input type="radio" name="main_reason_for_visit" value="Sport Chek">Sport Chek</label>
+                    <label><input type="radio" name="main_reason_for_visit" value="Shoppers Drugmart">Shoppers Drugmart</label>
+                    <label><input type="radio" name="main_reason_for_visit" value="Services">Services (banking, medical, hair/nail appointment)</label> 
+                    <div class="auto-width-container">
+                        <label class="left-element"><input type="radio" name="main_reason_for_visit" value="Other">Other, please specify</label>
+                        <div class="right-element">
+                            <input class="inline form-control" type="text" name='main_reason_for_visit_other' />
+                        </div>
                     </div>
-                </div>
-        
-            </div>
-        </div>
-        
-        <div class="form-group clear">
-            <div class="question">7. Using a scale from 1 to 10, where "1" is NOT at all satisfied and "10" is VERY satisfied, how would you rate Merival Mall overall?</div>
-            <div class="field-group horizontal half-margin">
-                <label><input type="radio" name="satisifaction_with_merivale_mall" value="1">1</label>
-                <label><input type="radio" name="satisifaction_with_merivale_mall" value="2">2</label>
-                <label><input type="radio" name="satisifaction_with_merivale_mall" value="3">3</label>
-                <label><input type="radio" name="satisifaction_with_merivale_mall" value="4">4</label>
-                <label><input type="radio" name="satisifaction_with_merivale_mall" value="5">5</label>
-                <label><input type="radio" name="satisifaction_with_merivale_mall" value="6">6</label>
-                <label><input type="radio" name="satisifaction_with_merivale_mall" value="7">7</label>
-                <label><input type="radio" name="satisifaction_with_merivale_mall" value="8">8</label>
-                <label><input type="radio" name="satisifaction_with_merivale_mall" value="9">9</label>
-                <label><input type="radio" name="satisifaction_with_merivale_mall" value="10">10</label>
-            </div>
-            <div class="padding row-padding">
-                <div class="pull-left">Not at all satisifed</div>
-                <div class="pull-right">Very satisifed</div>
-            </div>
-        </div>
-        
-        <div class="form-group clear">
-            <div class="question">8. What type of stores would you like to see more of at Merivale Mall??</div>
-            <div class="field-group vertical">
-                <label><input type="radio" name="type_of_stores_to_see_more_of" value="Unisex Fashion">Unisex Fashion</label>
-                <label><input type="radio" name="type_of_stores_to_see_more_of" value="Children's Clothing Stores">Children's Clothing Stores</label>
-                <label><input type="radio" name="type_of_stores_to_see_more_of" value="Toy Store">Toy Stores</label>
-                <label><input type="radio" name="type_of_stores_to_see_more_of" value="Footwear">Footwear</label>
-                <label><input type="radio" name="type_of_stores_to_see_more_of" value="Higher Quality Merchandise">Higher Quality Merchandise</label>        
-                <label><input type="radio" name="type_of_stores_to_see_more_of" value="Sit-Down Resteraunts">Sit-Down Resteraunts</label>
-                <div class="auto-width-container">
-                    <label class="left-element"><input type="radio" name="type_of_stores_to_see_more_of" value="other" />Other, please specify</label>
-                    <div class="right-element"><input type="text" class="inline form-control" name="type_of_stores_to_see_more_of_text" /></div>
+            
                 </div>
             </div>
-        </div>
-        
-        <div class="form-group">
-            <div class="question">9. Besides shopping at Merivale Mall, where else do you shop? <i>Click all that apply.</i></div>
-            <div class="field-group vertical">
-                <label><input type="radio" name="where_else_do_you_shop[]" value="Carlingwood Mall">Carlingwood Mall</label>
-                <label><input type="radio" name="where_else_do_you_shop[]" value="Billings Bridge Shopping Centre">Billings Bridge Shopping Centre</label>
-                <label><input type="radio" name="where_else_do_you_shop[]" value="Hazeldean Mall">Hazeldean Mall</label>
-                <label><input type="radio" name="where_else_do_you_shop[]" value="Lincoln Fields Shopping Centre">Lincoln Fields Shopping Centre</label>
-                <label><input type="radio" name="where_else_do_you_shop[]" value="Westgate Shopping Centre">Westgate Shopping Centre</label>
-                <label><input type="radio" name="where_else_do_you_shop[]" value="Tanger Outlets">Tanger Outlets</label>
-            </div>
-        </div>
-        
-        <div class="form-group">
-            <div class="question">10. What are your favourite stores to shop at? <i>Please specify.</i></div>
-            <div class="field-group">
-                <input type="text" class="form-control" name="favourite_stores_to_shop_at" />
-            </div>
-        </div>
-        
-        <div class="form-group">
-            <div class="question">11. Which stores and services do you most often visit when shopping at Merival Mall?</div>
-            <div class="field-group">
-                <input type="text" class="form-control" name="most_visted_stores_serivces_at_merivale" />
-            </div>
-        </div>
-        
-        <div class="form-group">
-            <div class="question">12. Is there a particular store or service you would like to see open at Merival Mall?</div>
-            <div class="field-group vertical">
-                <div class="auto-width-container">
-                    <label class="left-element">1.</label> 
-                    <div class="right-element"><input type="text" class="inline form-control" name="store_service_to_see_at_merival_1" /></div>
+            
+            <div class="form-group clear">
+                <div class="question">7. Using a scale from 1 to 10, where "1" is NOT at all satisfied and "10" is VERY satisfied, how would you rate Merival Mall overall?</div>
+                <div class="field-group horizontal half-margin">
+                    <label><input type="radio" name="satisifaction_with_merivale_mall" value="1">1</label>
+                    <label><input type="radio" name="satisifaction_with_merivale_mall" value="2">2</label>
+                    <label><input type="radio" name="satisifaction_with_merivale_mall" value="3">3</label>
+                    <label><input type="radio" name="satisifaction_with_merivale_mall" value="4">4</label>
+                    <label><input type="radio" name="satisifaction_with_merivale_mall" value="5">5</label>
+                    <label><input type="radio" name="satisifaction_with_merivale_mall" value="6">6</label>
+                    <label><input type="radio" name="satisifaction_with_merivale_mall" value="7">7</label>
+                    <label><input type="radio" name="satisifaction_with_merivale_mall" value="8">8</label>
+                    <label><input type="radio" name="satisifaction_with_merivale_mall" value="9">9</label>
+                    <label><input type="radio" name="satisifaction_with_merivale_mall" value="10">10</label>
                 </div>
-                <div class="auto-width-container">
-                    <label class="left-element">2.</label>
-                    <div class="right-element"><input type="text" class="inline form-control" name="store_service_to_see_at_merival_2" /></div>
-                </div>
-                <div class="auto-width-container">
-                    <label class="left-element">3.</label>
-                    <div class="right-element"><input type="text" class="inline form-control" name="store_service_to_see_at_merival_3" /></div>
+                <div class="padding row-padding">
+                    <div class="pull-left">Not at all satisifed</div>
+                    <div class="pull-right">Very satisifed</div>
                 </div>
             </div>
-        </div>
-        
-        <div class="form-group">
-            <div class="question">13. From the following list, please indicate what Merivale Mall could do to attract you to shop more often?</div>
-            <div class="field-group vertical">
-                <label><input type="radio" name="what_could_merival_do_to_attract_you" value="Offer Better Shops and Services" />Offer Better Shops & Services</label>
-                <label><input type="radio" name="what_could_merival_do_to_attract_you" value="Host Mall-wide Sales Events"/>Host Mall-Wide Sales Events</label>
-                <div class="auto-width-container">
-                    <label class="left-element"><input type="radio" name="what_could_merival_do_to_attract_you" value="other" />other, please specify</label>
-                    <div class="right-element"><input class="form-control inline" type="text" name="what_could_merival_do_to_attract_you_other_text" /></div>
-                </div>
-            </div>
-        </div>
-        
-        <div class="form-group">
-            <div class="question">14. When buying clothing for yourself, which of the following best describes you?</div>
-            <div class="field-group vertical">
-                <label><input type="radio" name="when_buying_clothing_for_yourself" value="Price and value are important to me" />Price and value are important to me</label>
-                <label><input type="radio" name="when_buying_clothing_for_yourself" value="I prefer brand-name items and buy them on sale"/>I prefer brand-name items and buy them on sale</label>
-                <label><input type="radio" name="when_buying_clothing_for_yourself" value="other" />I always buy brand-name goods. I want my clothing to make a statement.</label>
-            </div>
-        </div>
-        
-        <div class="form-group clear">
-            <div class="question">15. Where are you favourite places to buy fashion and accessories??</div>
-            <div class="field-group vertical">
-                <label><input type="radio" name="favourite_place_for_fashion" value="Specific stores in a shopping mall" />Specific stores in a shopping mall</label>
-                <label><input type="radio" name="favourite_place_for_fashion" value="Discount department stores" />Discount department stores - i.e. Marshalls</label>
-                <label><input type="radio" name="favourite_place_for_fashion" value="Outlet Stores" />Outlet Stores</label>        
-                <label><input type="radio" name="favourite_place_for_fashion" value="Speciality Boutiques" />Speciality Boutiques</label>
-                <label><input type="radio" name="favourite_place_for_fashion" value="Major Department Stores" />Major Department Stores - i.e. Hudson Bay company</label>        
-                <label><input type="radio" name="favourite_place_for_fashion" value="Thrift Stores or Consignments Shops" />Thrift Stores or Consignments Shops</label>
-                <label><input type="radio" name="favourite_place_for_fashion" value="Warehouse Stores" />Warehouse stores such as Costco</label>        
-            </div>
-        </div>
-        
-        <div class="form-group">
-            <div class="question">16. Have you seen or heard any advertising for merival Mall in the past months or so?</div>
-            <div class="field-group vertical">
-                <label><input type="radio" name="have_see_any_advertising_for_merivale_in_past_month" value="yes" />Yes</label>
-                <label><input type="radio" name="have_see_any_advertising_for_merivale_in_past_month" value="no" />No</label>
-            </div>
-        </div>
-        
-        <div class="form-group clear">
-            <div class="question">17. If you indicated that you have seen advertising for Merival Mall in the past few months, as far as you can recall, where did you see this advertising? <i>Click all that apply</i></div>
-            <div class="field-group vertical">
-                <label><input type="radio" name="where_have_you_see_our_advertising" value="Billboards" />Billboards</label>
-                <label><input type="radio" name="where_have_you_see_our_advertising" value="Newsprint" />Newsprint</label>
-                <label><input type="radio" name="where_have_you_see_our_advertising" value="Radio" />Radio</label>
-                <label><input type="radio" name="where_have_you_see_our_advertising" value="TV" />TV</label>
-                <label><input type="radio" name="where_have_you_see_our_advertising" value="Social Media" />Social Media - Facebook</label>
-                <label><input type="radio" name="where_have_you_see_our_advertising" value="Online" />Online- Website, E-Newsletters</label>
-                <label><input type="radio" name="where_have_you_see_our_advertising" value="Transit Shelters" />Transit Shelters</label>
-            </div>
-        </div>
-        
-        <div class="form-group">
-            <div class="question">18. In 2015 we completed our renovation project are you ...</div>
-            <div class="field-group vertical">
-                <label><input type="radio" name="how_much_did_you_like_2015_renovations" value="Very" />Very pleased with the New  Merivale Mall</label>
-                <label><input type="radio" name="how_much_did_you_like_2015_renovations" value="Somewhat" />Somewhat pleased with the New Merivale Mall</label>
-                <div class="auto-width-container">
-                    <label class="left-element"><input type="radio" name="how_much_did_you_like_2015_renovations" value="other" />Additional comments, please specify</label>
-                    <div class="right-element"><input class="form-control inline" type="text" name="how_much_did_you_like_2015_renovations_comments" /></div>
-                </div>
-            </div>
-        </div>
-    
-        <div class="row">
-            <div class="md-col-12 well padded">
-                <div class="row">
-                    <div class="col-md-6 form-group">
-                        <label>First Name</label>
-                        <input type="text" name="first_name" class="form-control" />
-                    </div>
-                
-                    <div class="col-md-6 form-group">
-                        <label>Last Name</label>
-                        <input class="form-control" type="text" name="last_name" />
-                    </div>
-                </div>
-                
-                <div class="row">
-                    <div class="col-md-6 form-group">
-                        <label>Telephone Number</label>
-                        <input class="form-control" type="text" name="telephone_number" />
-                    </div>
-                
-                    <div class="col-md-6 form-group">
-                        <label>Email</label>
-                        <input class="form-control" type="text" name="email" />
-                    </div>
-                </div>
-                
-                <div class="row">
-                    <div class="col-md-4 form-group">
-                        <label>City</label>
-                        <input class="form-control" type="text" name="city" />
-                    </div>
-                
-                    <div class="col-md-4 form-group">
-                        <label>Postal Code</label>
-                        <input class="form-control" type="text" name="postal_code" />
-                    </div>
-                
-                    <div class="col-md-4 form-group">
-                        <label>Date Of Birth</label>
-                        <input class="form-control" type="text" name="Date Of Birth" />
+            
+            <div class="form-group clear">
+                <div class="question">8. What type of stores would you like to see more of at Merivale Mall??</div>
+                <div class="field-group vertical">
+                    <label><input type="radio" name="type_of_stores_to_see_more_of" value="Unisex Fashion">Unisex Fashion</label>
+                    <label><input type="radio" name="type_of_stores_to_see_more_of" value="Children's Clothing Stores">Children's Clothing Stores</label>
+                    <label><input type="radio" name="type_of_stores_to_see_more_of" value="Toy Store">Toy Stores</label>
+                    <label><input type="radio" name="type_of_stores_to_see_more_of" value="Footwear">Footwear</label>
+                    <label><input type="radio" name="type_of_stores_to_see_more_of" value="Higher Quality Merchandise">Higher Quality Merchandise</label>        
+                    <label><input type="radio" name="type_of_stores_to_see_more_of" value="Sit-Down Resteraunts">Sit-Down Resteraunts</label>
+                    <div class="auto-width-container">
+                        <label class="left-element"><input type="radio" name="type_of_stores_to_see_more_of" value="other" />Other, please specify</label>
+                        <div class="right-element"><input type="text" class="inline form-control" name="type_of_stores_to_see_more_of_text" /></div>
                     </div>
                 </div>
             </div>
-        </div>            
+            
+            <div class="form-group">
+                <div class="question">9. Besides shopping at Merivale Mall, where else do you shop? <i>Click all that apply.</i></div>
+                <div class="field-group vertical">
+                    <label><input type="radio" name="where_else_do_you_shop[]" value="Carlingwood Mall">Carlingwood Mall</label>
+                    <label><input type="radio" name="where_else_do_you_shop[]" value="Billings Bridge Shopping Centre">Billings Bridge Shopping Centre</label>
+                    <label><input type="radio" name="where_else_do_you_shop[]" value="Hazeldean Mall">Hazeldean Mall</label>
+                    <label><input type="radio" name="where_else_do_you_shop[]" value="Lincoln Fields Shopping Centre">Lincoln Fields Shopping Centre</label>
+                    <label><input type="radio" name="where_else_do_you_shop[]" value="Westgate Shopping Centre">Westgate Shopping Centre</label>
+                    <label><input type="radio" name="where_else_do_you_shop[]" value="Tanger Outlets">Tanger Outlets</label>
+                </div>
+            </div>
+            
+            <div class="form-group">
+                <div class="question">10. What are your favourite stores to shop at? <i>Please specify.</i></div>
+                <div class="field-group">
+                    <input type="text" class="form-control" name="favourite_stores_to_shop_at" />
+                </div>
+            </div>
+            
+            <div class="form-group">
+                <div class="question">11. Which stores and services do you most often visit when shopping at Merival Mall?</div>
+                <div class="field-group">
+                    <input type="text" class="form-control" name="most_visted_stores_serivces_at_merivale" />
+                </div>
+            </div>
+            
+            <div class="form-group">
+                <div class="question">12. Is there a particular store or service you would like to see open at Merival Mall?</div>
+                <div class="field-group vertical">
+                    <div class="auto-width-container">
+                        <label class="left-element">1.</label> 
+                        <div class="right-element"><input type="text" class="inline form-control" name="store_service_to_see_at_merival_1" /></div>
+                    </div>
+                    <div class="auto-width-container">
+                        <label class="left-element">2.</label>
+                        <div class="right-element"><input type="text" class="inline form-control" name="store_service_to_see_at_merival_2" /></div>
+                    </div>
+                    <div class="auto-width-container">
+                        <label class="left-element">3.</label>
+                        <div class="right-element"><input type="text" class="inline form-control" name="store_service_to_see_at_merival_3" /></div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="form-group">
+                <div class="question">13. From the following list, please indicate what Merivale Mall could do to attract you to shop more often?</div>
+                <div class="field-group vertical">
+                    <label><input type="radio" name="what_could_merival_do_to_attract_you" value="Offer Better Shops and Services" />Offer Better Shops & Services</label>
+                    <label><input type="radio" name="what_could_merival_do_to_attract_you" value="Host Mall-wide Sales Events"/>Host Mall-Wide Sales Events</label>
+                    <div class="auto-width-container">
+                        <label class="left-element"><input type="radio" name="what_could_merival_do_to_attract_you" value="other" />other, please specify</label>
+                        <div class="right-element"><input class="form-control inline" type="text" name="what_could_merival_do_to_attract_you_other_text" /></div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="form-group">
+                <div class="question">14. When buying clothing for yourself, which of the following best describes you?</div>
+                <div class="field-group vertical">
+                    <label><input type="radio" name="when_buying_clothing_for_yourself" value="Price and value are important to me" />Price and value are important to me</label>
+                    <label><input type="radio" name="when_buying_clothing_for_yourself" value="I prefer brand-name items and buy them on sale"/>I prefer brand-name items and buy them on sale</label>
+                    <label><input type="radio" name="when_buying_clothing_for_yourself" value="other" />I always buy brand-name goods. I want my clothing to make a statement.</label>
+                </div>
+            </div>
+            
+            <div class="form-group clear">
+                <div class="question">15. Where are you favourite places to buy fashion and accessories??</div>
+                <div class="field-group vertical">
+                    <label><input type="radio" name="favourite_place_for_fashion" value="Specific stores in a shopping mall" />Specific stores in a shopping mall</label>
+                    <label><input type="radio" name="favourite_place_for_fashion" value="Discount department stores" />Discount department stores - i.e. Marshalls</label>
+                    <label><input type="radio" name="favourite_place_for_fashion" value="Outlet Stores" />Outlet Stores</label>        
+                    <label><input type="radio" name="favourite_place_for_fashion" value="Speciality Boutiques" />Speciality Boutiques</label>
+                    <label><input type="radio" name="favourite_place_for_fashion" value="Major Department Stores" />Major Department Stores - i.e. Hudson Bay company</label>        
+                    <label><input type="radio" name="favourite_place_for_fashion" value="Thrift Stores or Consignments Shops" />Thrift Stores or Consignments Shops</label>
+                    <label><input type="radio" name="favourite_place_for_fashion" value="Warehouse Stores" />Warehouse stores such as Costco</label>        
+                </div>
+            </div>
+            
+            <div class="form-group">
+                <div class="question">16. Have you seen or heard any advertising for merival Mall in the past months or so?</div>
+                <div class="field-group vertical">
+                    <label><input type="radio" name="have_see_any_advertising_for_merivale_in_past_month" value="yes" />Yes</label>
+                    <label><input type="radio" name="have_see_any_advertising_for_merivale_in_past_month" value="no" />No</label>
+                </div>
+            </div>
+            
+            <div class="form-group clear">
+                <div class="question">17. If you indicated that you have seen advertising for Merival Mall in the past few months, as far as you can recall, where did you see this advertising? <i>Click all that apply</i></div>
+                <div class="field-group vertical">
+                    <label><input type="radio" name="where_have_you_see_our_advertising" value="Billboards" />Billboards</label>
+                    <label><input type="radio" name="where_have_you_see_our_advertising" value="Newsprint" />Newsprint</label>
+                    <label><input type="radio" name="where_have_you_see_our_advertising" value="Radio" />Radio</label>
+                    <label><input type="radio" name="where_have_you_see_our_advertising" value="TV" />TV</label>
+                    <label><input type="radio" name="where_have_you_see_our_advertising" value="Social Media" />Social Media - Facebook</label>
+                    <label><input type="radio" name="where_have_you_see_our_advertising" value="Online" />Online- Website, E-Newsletters</label>
+                    <label><input type="radio" name="where_have_you_see_our_advertising" value="Transit Shelters" />Transit Shelters</label>
+                </div>
+            </div>
+            
+            <div class="form-group">
+                <div class="question">18. In 2015 we completed our renovation project are you ...</div>
+                <div class="field-group vertical">
+                    <label><input type="radio" name="how_much_did_you_like_2015_renovations" value="Very" />Very pleased with the New  Merivale Mall</label>
+                    <label><input type="radio" name="how_much_did_you_like_2015_renovations" value="Somewhat" />Somewhat pleased with the New Merivale Mall</label>
+                    <div class="auto-width-container">
+                        <label class="left-element"><input type="radio" name="how_much_did_you_like_2015_renovations" value="other" />Additional comments, please specify</label>
+                        <div class="right-element"><input class="form-control inline" type="text" name="how_much_did_you_like_2015_renovations_comments" /></div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="row">
+                <div class="md-col-12 well padded">
+                    <div class="row">
+                        <div class="col-md-6 form-group">
+                            <label>First Name</label>
+                            <input type="text" name="first_name" class="form-control" />
+                        </div>
+                    
+                        <div class="col-md-6 form-group">
+                            <label>Last Name</label>
+                            <input class="form-control" type="text" name="last_name" />
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-md-6 form-group">
+                            <label>Telephone Number</label>
+                            <input class="form-control" type="text" name="telephone_number" />
+                        </div>
+                    
+                        <div class="col-md-6 form-group">
+                            <label>Email</label>
+                            <input class="form-control" type="text" name="email" />
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-md-4 form-group">
+                            <label>City</label>
+                            <input class="form-control" type="text" name="city" />
+                        </div>
+                    
+                        <div class="col-md-4 form-group">
+                            <label>Postal Code</label>
+                            <input class="form-control" type="text" name="postal_code" />
+                        </div>
+                    
+                        <div class="col-md-4 form-group">
+                            <label>Date Of Birth</label>
+                            <input class="form-control" type="text" name="Date Of Birth" />
+                        </div>
+                    </div>
+                </div>
+            </div>     
+        </form>
     </div>
 </div>
 
 <script>
     // var host = "https://mallmaverickstaging.com/"
     var host = "http://twinpines.lvh.me:3000/"
+    $('form').on('submit', function(e){
+        e.preventDefault();
+        submitContest(data);
+    });
     
-    function submit_contest(data) {
+    function isValidForm() {
+        return true;
+    }
+    
+    function submitContest(data) {
+        if (!isValidForm(data)) {
+            return false;
+        };
+        
         var propertyDetails = getPropertyDetails();
         var host = propertyDetails.mm_host
+        
         $.ajax({
-            url: host+"/contests/json_entry",
+            url: host+"/contests/152/json_entry",
             type: "POST",
             data: data,
             success: function(data) {
