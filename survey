@@ -198,12 +198,12 @@
             <div class="form-group">
                 <div class="question">9. Besides shopping at Merivale Mall, where else do you shop? <i>Click all that apply.</i></div>
                 <div class="field-group vertical">
-                    <label><input type="radio" name="where_else_do_you_shop[]" value="Carlingwood Mall">Carlingwood Mall</label>
-                    <label><input type="radio" name="where_else_do_you_shop[]" value="Billings Bridge Shopping Centre">Billings Bridge Shopping Centre</label>
-                    <label><input type="radio" name="where_else_do_you_shop[]" value="Hazeldean Mall">Hazeldean Mall</label>
-                    <label><input type="radio" name="where_else_do_you_shop[]" value="Lincoln Fields Shopping Centre">Lincoln Fields Shopping Centre</label>
-                    <label><input type="radio" name="where_else_do_you_shop[]" value="Westgate Shopping Centre">Westgate Shopping Centre</label>
-                    <label><input type="radio" name="where_else_do_you_shop[]" value="Tanger Outlets">Tanger Outlets</label>
+                    <label><input type="checkbox" name="where_else_do_you_shop[]" value="Carlingwood Mall">Carlingwood Mall</label>
+                    <label><input type="checkbox" name="where_else_do_you_shop[]" value="Billings Bridge Shopping Centre">Billings Bridge Shopping Centre</label>
+                    <label><input type="checkbox" name="where_else_do_you_shop[]" value="Hazeldean Mall">Hazeldean Mall</label>
+                    <label><input type="checkbox" name="where_else_do_you_shop[]" value="Lincoln Fields Shopping Centre">Lincoln Fields Shopping Centre</label>
+                    <label><input type="checkbox" name="where_else_do_you_shop[]" value="Westgate Shopping Centre">Westgate Shopping Centre</label>
+                    <label><input type="checkbox" name="where_else_do_you_shop[]" value="Tanger Outlets">Tanger Outlets</label>
                 </div>
             </div>
             
