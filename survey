@@ -65,7 +65,7 @@
         margin-right:10px;
     }
     
-    .form-group {
+    .clear {
         clear:both;
     }
     
@@ -84,7 +84,7 @@
         <p>Win a $100 Gift Card to your favourite Merivale Mall Store!</p>
         <div class="progress_bar"></div>
         
-        <div class="form-group">
+        <div class="form-group clear">
             <label>1. Gender</label>
             <div class="field-group horizontal">
               <label><input type="radio" name="gender" value="male">Male</label>
@@ -92,7 +92,7 @@
             </div>
         </div>
         
-        <div class="form-group">
+        <div class="form-group clear">
             <div class="question">2. Age</div>
             <div class="field-group horizontal">
               <label><input type="radio" name="age" value="18-24">18-24</label>
@@ -103,7 +103,7 @@
             </div>
         </div>
         
-        <div class="form-group">
+        <div class="form-group clear">
             <label>3. Which of following statement applies to you?</label>
             <div class="field-group vertical">
               <label><input type="radio" name="have_year_olds_at_home" value="yes">
@@ -275,7 +275,7 @@
             </div>
         </div>
         
-        <div class="form-group">
+        <div class="form-group clear">
             <div class="question">17. If you indicated that you have seen advertising for Merival Mall in the past few months, as far as you can recall, where did you see this advertising? <i>Click all that apply</i></div>
             <div class="field-group vertical">
                 <label><input type="radio" name="where_have_you_see_our_advertising" value="Billboards" />Billboards</label>
