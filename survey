@@ -260,7 +260,7 @@
     </div>
     
     <div class="row">
-        <div class="md-col-12 well">
+        <div class="md-col-12 well padded">
             <div class="row">
                 <div class="col-md-6 form-group">
                     <label>First Name</label>
