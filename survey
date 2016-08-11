@@ -57,6 +57,10 @@
         margin-bottom: 10px;        
     }
     
+    .auto-width-container .left-element label{
+        margin-right:10px;
+    }
+    
 </style>
 
 <div id="main_content">
