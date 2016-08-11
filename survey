@@ -352,3 +352,25 @@
         </div>            
     </div>
 </div>
+
+<script>
+    // var host = "https://mallmaverickstaging.com/"
+    var host = "http://twinpines.lvh.me:3000/"
+    
+    function submit_contest(data) {
+        var propertyDetails = getPropertyDetails();
+        var host = propertyDetails.mm_host
+        $.ajax({
+            url: host+"/contests/json_entry",
+            type: "POST",
+            data: data,
+            success: function(data) {
+                window.location.href="/contest_thank_you";
+            },
+            error: function(data){
+                alert("There was an issue with submitting the contest entry. Please try again at a later time.")
+            }
+        });
+    }
+    
+</script>
