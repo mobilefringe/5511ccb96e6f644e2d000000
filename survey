@@ -38,11 +38,11 @@
         <div class="form-group">
             <label>2. Age</label>
             <div class="field-group horizontal">
-              <label><input class="form-control" type="radio" name="age" value="18-24">18-24</label>
-              <label><input class="form-control" type="radio" name="age" value="25-34">25-34</label>
-              <label><input class="form-control" type="radio" name="age" value="35-44">35-44</label>
-              <label><input class="form-control" type="radio" name="age" value="45-64">45-64</label>
-              <label><input class="form-control" type="radio" name="age" value="65+">65 or Over</label>
+              <label><input type="radio" name="age" value="18-24">18-24</label>
+              <label><input type="radio" name="age" value="25-34">25-34</label>
+              <label><input type="radio" name="age" value="35-44">35-44</label>
+              <label><input type="radio" name="age" value="45-64">45-64</label>
+              <label><input type="radio" name="age" value="65+">65 or Over</label>
             </div>
         </div>
         
