@@ -1,4 +1,8 @@
 <style>
+    .inside_page_content  {
+        width:870px
+    }
+    
     .field-group {
         margin-left:20px;
     }
