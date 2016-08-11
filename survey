@@ -1,12 +1,12 @@
 <style>
     .field-group {
         margin-left:20px;
-        font-weight: normal;
     }
     
     .field-group label {
         width: auto;
         margin-right: 100px;
+        font-weight: normal;        
     }
     
     .field-group label input[type=radio] {
