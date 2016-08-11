@@ -47,7 +47,11 @@
     .auto-width-container .right-element{
         overflow:none;
     }
-
+    
+    div.question {
+        font-weight:bold;
+    }
+    
 </style>
 
 <div id="main_content">
