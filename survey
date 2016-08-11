@@ -72,7 +72,7 @@
         </div>
         
         <div class="form-group">
-            <div class="question">2. Age</label>
+            <div class="question">2. Age</div>
             <div class="field-group horizontal">
               <label><input type="radio" name="age" value="18-24">18-24</label>
               <label><input type="radio" name="age" value="25-34">25-34</label>
@@ -95,7 +95,7 @@
         </div>
         
         <div class="form-group">
-            <div class="question">4. How many times on average do you shop at Merivale Mall per month?</label>
+            <div class="question">4. How many times on average do you shop at Merivale Mall per month?</div>
             <div class="field-group vertical">
               <label><input type="radio" name="have_18_year_olds_at_home" value="yes">
                   I have children under the age of 18 living at home.
@@ -107,7 +107,7 @@
         </div>
         
         <div class="form-group">
-            <div class="question">5. How long were you in the mall during your last visit at Merival Mall?</label>
+            <div class="question">5. How long were you in the mall during your last visit at Merival Mall?</div>
             <div class="field-group horizontal">
                 <label><input type="radio" name="length_of_last_visit" value="< 30">Less than 30 minutes</label>
                 <label><input type="radio" name="length_of_last_visit" value="< 60">Less than 60 minutes</label>
@@ -174,7 +174,7 @@
         </div>
         
         <div class="form-group">
-            <label>10. What are your favourite stores to shop at? **Please specify.**</div>
+            <div class="question">10. What are your favourite stores to shop at? **Please specify.**</div>
             <div class="field-group">
                 <input type="text" class="form-control" name="favourite_stores_to_shop_at" />
             </div>
@@ -230,7 +230,7 @@
         </div>
         
         <div class="form-group">
-            <label>16. Have you seen or heard any advertising for merival Mall in the past months or so?</div>
+            <div class="question">16. Have you seen or heard any advertising for merival Mall in the past months or so?</div>
             <div class="field-group vertical">
                 <label><input type="radio" name="have_see_any_advertising_for_merivale_in_past_month" value="yes" />Yes</label>
                 <label><input type="radio" name="have_see_any_advertising_for_merivale_in_past_month" value="no" />No</label>
@@ -251,7 +251,7 @@
         </div>
         
         <div class="form-group">
-            <div class="question">18. In 2015 we completed our renovation project are you ...</label>
+            <div class="question">18. In 2015 we completed our renovation project are you ...</div>
             <div class="field-group vertical">
                 <label><input type="radio" name="how_much_did_you_like_2015_renovations" value="Very" />Very pleased with the New  Merivale Mall</label>
                 <label><input type="radio" name="how_much_did_you_like_2015_renovations" value="Somewhat" />Somewhat pleased with the New Merivale Mall</label>
