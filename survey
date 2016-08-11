@@ -12,6 +12,12 @@
     .field-group label input[type=radio] {
         margin-right:10px;
     }
+
+    .field-group.vertical label {
+        display: block;
+    }
+
+    
 </style>
 
 <div id="main_content">
