@@ -283,7 +283,7 @@
                 <label><input type="radio" name="how_much_did_you_like_2015_renovations" value="Somewhat" />Somewhat pleased with the New Merivale Mall</label>
                 <div class="auto-width-container">
                     <label class="left-element"><input type="radio" name="how_much_did_you_like_2015_renovations" value="other" />Additional comments, please specify</label>
-                    <div class="right-element"><input class="form-element" type="text" name="how_much_did_you_like_2015_renovations_comments" /></div>
+                    <div class="right-element"><input class="form-element inline" type="text" name="how_much_did_you_like_2015_renovations_comments" /></div>
                 </div>
             </div>
         </div>
