@@ -65,6 +65,10 @@
         margin-right:10px;
     }
     
+    .clear-all{
+        clear:all;
+    }
+    
 </style>
 
 <div id="main_content">
