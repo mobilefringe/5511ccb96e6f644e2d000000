@@ -9,6 +9,10 @@
         font-weight: normal;        
     }
     
+    .field-group label:last {
+        margin-right:0px;
+    }
+    
     .field-group label input[type=radio] {
         margin-right:10px;
     }
@@ -16,7 +20,10 @@
     .field-group.vertical label {
         display: block;
     }
-
+    
+    .field-group.half-margin label {
+        margin-right:50px;
+    }
     
 </style>
 
