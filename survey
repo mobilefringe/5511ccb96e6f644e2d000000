@@ -32,7 +32,8 @@
     .inline.form-control[type="text"] {
         display:inline-block;
     }
-    .for-control[type="text"] {
+    
+    .form-control[type="text"] {
         border-radius:0;
         height:30px;
         margin-bottom:10px;
