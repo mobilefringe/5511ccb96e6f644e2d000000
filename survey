@@ -269,36 +269,36 @@
             
                 <div class="col-md-6 form-group">
                     <label>Last Name</label>
-                    <input type="text" name="last_name" />
+                    <input class="form-control" type="text" name="last_name" />
                 </div>
             </div>
             
             <div class="row">
                 <div class="col-md-6 form-group">
                     <label>Telephone Number</label>
-                    <input type="text" name="telephone_number" />
+                    <input class="form-conorol" type="text" name="telephone_number" />
                 </div>
             
                 <div class="col-md-6 form-group">
                     <label>Email</label>
-                    <input type="text" name="email" />
+                    <input class="form-conorol" type="text" name="email" />
                 </div>
             </div>
             
             <div class="row">
                 <div class="col-md-4 form-group">
                     <label>City</label>
-                    <input type="text" name="city" />
+                    <input class="form-conorol" type="text" name="city" />
                 </div>
             
                 <div class="col-md-4 form-group">
                     <label>Postal Code</label>
-                    <input type="text" name="postal_code" />
+                    <input class="form-conorol" type="text" name="postal_code" />
                 </div>
             
                 <div class="col-md-4 form-group">
                     <label>Date Of Birth</label>
-                    <input type="text" name="Date Of Birth" />
+                    <input class="form-conorol" type="text" name="Date Of Birth" />
                 </div>
             </div>
         </div>
