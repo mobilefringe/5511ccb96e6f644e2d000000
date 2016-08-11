@@ -1,6 +1,7 @@
 <style>
     .field-group {
         margin-left:20px;
+        font-weight: normal;
     }
     
     .field-group label {
