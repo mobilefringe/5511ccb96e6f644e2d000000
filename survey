@@ -228,7 +228,7 @@
                 <label><input type="radio" name="what_could_merival_do_to_attract_you" value="Host Mall-wide Sales Events"/>Host Mall-Wide Sales Events</label>
                 <div class="auto-width-container">
                     <label class="left-element"><input type="radio" name="what_could_merival_do_to_attract_you" value="other" />other, please specify</label>
-                    <div class="right-element"><input type="text" name="what_could_merival_do_to_attract_you_other_text" /></div>
+                    <div class="right-element"><input class="form-control inline" type="text" name="what_could_merival_do_to_attract_you_other_text" /></div>
                 </div>
             </div>
         </div>
