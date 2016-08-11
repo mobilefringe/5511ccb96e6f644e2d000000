@@ -365,7 +365,11 @@ Winner(s) will be contacted via e-mail or by telephone. Must be 18 years or olde
                     <input type="checkbox" name="subscribe_to_newsletter" value="true"> I agree to the survey contest’s rules and regulations.
                         
                 </label>
-            </div>            
+            </div>
+            
+            <h4 class="thank-you">Thank you for your valuable time and feedback!</h4>
+            
+            <button class="btn">Submit Survey &amp; Enter Contest</button>
         </form>
     </div>
 </div>
