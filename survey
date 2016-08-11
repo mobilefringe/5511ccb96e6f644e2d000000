@@ -36,7 +36,7 @@
     }
     
     .auto-width-container {
-        overflow:none;
+        overflow:hidden;
     }
     
     .auto-width-container .left-element {
@@ -45,7 +45,7 @@
     }
     
     .auto-width-container .right-element{
-        overflow:none;
+        overflow:hidden;
     }
     
     div.question {
