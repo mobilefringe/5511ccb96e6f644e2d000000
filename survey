@@ -180,7 +180,7 @@
             </div>
             
             <div class="form-group clear">
-                <div class="question">8. What type of stores would you like to see more of at Merivale Mall??</div>
+                <div class="question">8. What type of stores would you like to see more of at Merivale Mall?</div>
                 <div class="field-group vertical">
                     <label><input type="radio" name="type_of_stores_to_see_more_of" value="Unisex Fashion">Unisex Fashion</label>
                     <label><input type="radio" name="type_of_stores_to_see_more_of" value="Children's Clothing Stores">Children's Clothing Stores</label>
@@ -261,7 +261,7 @@
             </div>
             
             <div class="form-group clear">
-                <div class="question">15. Where are you favourite places to buy fashion and accessories??</div>
+                <div class="question">15. Where are you favourite places to buy fashion and accessories?</div>
                 <div class="field-group vertical">
                     <label><input type="radio" name="favourite_place_for_fashion" value="Specific stores in a shopping mall" />Specific stores in a shopping mall</label>
                     <label><input type="radio" name="favourite_place_for_fashion" value="Discount department stores" />Discount department stores - i.e. Marshalls</label>
