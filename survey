@@ -4,7 +4,7 @@
         margin-right: 100px;
     }
     
-    .field-group label input {
+    .field-group label input[type=radio] {
         margin-right:20px;
     }
 </style>
