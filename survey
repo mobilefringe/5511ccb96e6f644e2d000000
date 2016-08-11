@@ -25,6 +25,11 @@
         margin-right:50px;
     }
     
+    .form-control {
+        display:inline-block;
+        width:auto;
+    }
+    
 </style>
 
 <div id="main_content">
