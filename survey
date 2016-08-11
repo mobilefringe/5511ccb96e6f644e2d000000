@@ -139,7 +139,7 @@
                 <div class="auto-width-container">
                 <label class="left-element"><input type="radio" name="main_reason_for_visit" value="Other">Other, please specify</label>
                     <div class="right-element">
-                        <input type="text" name='main_reason_for_visit_other' />
+                        <input class="form-control" type="text" name='main_reason_for_visit_other' />
                     </div>
                 </div>
         
