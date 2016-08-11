@@ -172,7 +172,7 @@
                 <label><input type="radio" name="type_of_stores_to_see_more_of" value="Higher Quality Merchandise">Higher Quality Merchandise</label>        
                 <label><input type="radio" name="type_of_stores_to_see_more_of" value="Sit-Down Resteraunts">Sit-Down Resteraunts</label>
                 <div class="auto-width-container">
-                    <label class="left-element"><input type="radio" name="type_of_stores_to_see_more_of" value="other">Other, please specify</label>
+                    <label class="left-element"><input type="radio" name="type_of_stores_to_see_more_of" value="other" />Other, please specify</label>
                     <input type="text" class="form-control right-element" name="type_of_stores_to_see_more_of_text" />
                 </div>
             </div>
