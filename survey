@@ -17,7 +17,7 @@
         margin-right:0px;
     }
     
-    .field-group label input[type=radio] {
+    .field-group label input[type=radio], .field-group label input[type=checkbox]{
         margin-right:10px;
     }
 
