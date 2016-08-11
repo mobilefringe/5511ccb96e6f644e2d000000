@@ -25,9 +25,10 @@
         margin-right:50px;
     }
     
-    .form-control {
+    .form-control[type="text"] {
         display:inline-block;
         width:auto;
+        border-radius:0px;
     }
     
 </style>
