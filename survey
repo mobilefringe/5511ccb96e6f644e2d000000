@@ -235,6 +235,7 @@
                 <div class="auto-width-container">
                     <label class="left-element">3.</label>
                     <div class="right-element"><input type="text" class="inline form-control" name="store_service_to_see_at_merival_3" /></div>
+                </div>
             </div>
         </div>
         
@@ -350,4 +351,6 @@
             </div>
         </div>            
     </div>
-</div></div>
+    </div>
+    
+</div>
