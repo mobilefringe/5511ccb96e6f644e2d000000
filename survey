@@ -31,6 +31,10 @@
         border-radius:0px;
     }
     
+    .auto-width-container {
+        overflow:none;
+    }
+    
 </style>
 
 <div id="main_content">
