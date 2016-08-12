@@ -65,16 +65,19 @@ $(document).ready(function(){
                     case "checkbox":
                     case "radio":
                       if (ele.is(":checked")) {
-                        totalAnswered++;
-                        continue 2;
+                        hasValue = true;
                       };
                       break;
                     default:
                         if (ele.val()) {
-                            totalAnswered++;
-                            continue 2;
+                            hasValue = true;
                         }
                         break;
+                }
+                
+                if (hasValue) {
+                    totalAnswered++
+                    break;
                 }
             }
         });
