@@ -49,6 +49,30 @@ $(document).ready(function(){
     function updateProgress() {
         var container = $('#surveyProgress');
         
+        var totalQuestions = $('#surveyQuestions .form-group').length;
+        var totalAnswered = 0;
+        
+        // Loop over all our questions if a value is entered for any of our fields.
+        // mark it as an asnwered question
+        $('#surveyQuestions .form-group').each(function(group) {
+            // Loop over inputs to see if any one is selected
+            var inputs = $(group).find('input');
+            for (var x in inputs) {
+                var ele = $(inputs[x]);
+                
+                // Test input to see if it has a value or is selected
+                switch ele.attr('type') {
+                    case "checkbox":
+                    case "radio":
+                      if (ele.is(:checked)) {
+                        
+                        break 2;   
+                      }
+                      
+                }
+            }
+        });
+        
         var percentComplete = 30;
         
         // Loop over the progress labels and set the ones where value <= percentComplete
