@@ -7,10 +7,14 @@ $(document).ready(function(){
     
     $('form[name="survey_form"]').on('submit', function(e){
         e.preventDefault();
-        
-        var data = {};
-        data['json'] = JSON.stringify($('form[name="survey_form"]').serializeArray());
-        submitContest(data);
+        if (e.isDefaultPrevented()) {
+            alert("Please ensure that all marked fields are properly completed.");
+        } else {
+            var data = {};
+            data['json'] = JSON.stringify($('form[name="survey_form"]').serializeArray());
+            submitContest(data);
+            return false;
+        }
     });
     
     function isValidForm() {
