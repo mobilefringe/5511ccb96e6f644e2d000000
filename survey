@@ -234,8 +234,9 @@
                 <div class="md-col-12 well padded">
                     <div class="row">
                         <div class="col-md-6 form-group">
-                            <label>First Name*</label>
+                            <label for="first_name">First Name*</label>
                             <input type="text" name="first_name" class="form-control" required />
+                            <div class="help-block with-errors"></div>                            
                         </div>
                     
                         <div class="col-md-6 form-group">
