@@ -48,6 +48,6 @@ $(document).ready(function(){
 
     function updateProgress() {
         var percentComplete = 30;
-        $('#surveyProgress.progress-bar').css('width', percentComplete+'%').attr('aria-valuenow', percentComplete);    
+        $('#surveyProgress .progress-bar').css('width', percentComplete+'%').attr('aria-valuenow', percentComplete);    
         
     }
