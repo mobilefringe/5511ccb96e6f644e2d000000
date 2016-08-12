@@ -12,7 +12,7 @@
         <h3>Win a $100 Gift Card to your favourite Merivale Mall Store!</h3>
         <p>Win a $100 Gift Card to your favourite Merivale Mall Store!</p>
         <div class="progress_bar"></div>
-        <form name="survey_form">
+        <form name="survey_form" dat-toggle="validator">
             <div class="form-group clear">
                 <label>1. Gender</label>
                 <div class="field-group horizontal">
@@ -234,25 +234,25 @@
                 <div class="md-col-12 well padded">
                     <div class="row">
                         <div class="col-md-6 form-group">
-                            <label>First Name</label>
-                            <input type="text" name="first_name" class="form-control" />
+                            <label>First Name*</label>
+                            <input type="text" name="first_name" class="form-control" required />
                         </div>
                     
                         <div class="col-md-6 form-group">
-                            <label>Last Name</label>
-                            <input class="form-control" type="text" name="last_name" />
+                            <label>Last Name*</label>
+                            <input class="form-control" type="text" name="last_name" required />
                         </div>
                     </div>
                     
                     <div class="row">
                         <div class="col-md-6 form-group">
-                            <label>Telephone Number</label>
+                            <label>Telephone Number*</label>
                             <input class="form-control" type="text" name="telephone_number" />
                         </div>
                     
                         <div class="col-md-6 form-group">
                             <label>Email</label>
-                            <input class="form-control" type="text" name="email" />
+                            <input class="form-control" type="email" name="email" required/>
                         </div>
                     </div>
                     
