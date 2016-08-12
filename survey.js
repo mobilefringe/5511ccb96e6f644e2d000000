@@ -54,7 +54,7 @@ $(document).ready(function(){
         
         // Loop over all our questions if a value is entered for any of our fields.
         // mark it as an asnwered question
-        $('#surveyQuestions .form-group').each(function(group) {
+        $('#surveyQuestions .form-group').each(function(index, group) {
             // Loop over inputs to see if any one is selected
             var inputs = $(group).find('input');
             var hasValue = false;
