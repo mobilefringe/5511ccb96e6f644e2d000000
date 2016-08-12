@@ -69,7 +69,7 @@
                     
                     <div class="form-group">
                         <div class="question">4. How many times on average do you shop at Merivale Mall per month?</div>
-                        <div class="field-group vertical">
+                        <div class="field-group horizontal">
                           <label><input type="radio" name="average_times_at_merivale_per_month" value="0">0</label>
                           <label><input type="radio" name="average_times_at_merivale_per_month" value="1 - 5">1 to 5</label>
                           <label><input type="radio" name="average_times_at_merivale_per_month" value="6 - 10">6 to 10</label>
