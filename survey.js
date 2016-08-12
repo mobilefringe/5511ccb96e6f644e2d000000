@@ -20,7 +20,6 @@ $(document).ready(function(){
     });
     
     $('#surveyProgress input').on('change', function() {
-       
         updateProgress();
     });
 
