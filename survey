@@ -12,7 +12,7 @@
         <h3>Win a $100 Gift Card to your favourite Merivale Mall Store!</h3>
         <p>Win a $100 Gift Card to your favourite Merivale Mall Store!</p>
         <div class="progress_bar"></div>
-        <form name="survey_form" dat-toggle="validator" novalidate>
+        <form name="survey_form" data-toggle="validator" novalidate>
             <div class="form-group clear">
                 <label>1. Gender</label>
                 <div class="field-group horizontal">
