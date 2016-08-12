@@ -28,6 +28,10 @@
             </div>
         </div>
         
+        <div class="clear">
+            
+        </div>
+        
         <form name="survey_form" data-toggle="validator" novalidate>
             <div class="form-group clear">
                 <label>1. Gender</label>
