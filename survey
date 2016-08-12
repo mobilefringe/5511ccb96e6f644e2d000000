@@ -247,7 +247,7 @@
                     <div class="row">
                         <div class="col-md-6 form-group">
                             <label>Telephone Number*</label>
-                            <input class="form-control" type="text" name="telephone_number" />
+                            <input class="form-control" type="text" name="telephone_number" required />
                         </div>
                     
                         <div class="col-md-6 form-group">
