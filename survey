@@ -1,3 +1,5 @@
+<link href="/survey.css" rel="stylsheet" type="text/css" />
+
 <div id="main_content">
     <ul class="breadcrumb">
         <li><a href="/home">Home</a></li>
