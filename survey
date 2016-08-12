@@ -263,7 +263,7 @@
                         </div>
                     
                         <div class="col-md-4 form-group">
-                            <label>Postal Code</label>
+                            <label>Postal Code*</label>
                             <input class="form-control" type="text" name="postal_code" required />
                         </div>
                     
