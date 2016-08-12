@@ -59,7 +59,7 @@ $(document).ready(function(){
             var inputs = $(group).find('input');
             var hasValue = false;
             
-            for (var x in inputs) {
+            for (var x = 0; x < inputs.length; x++) {
                 var ele = $(inputs[x]);
                 
                 // Test input to see if it has a value or is selected
