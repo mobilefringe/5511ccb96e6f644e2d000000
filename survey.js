@@ -47,7 +47,7 @@ $(document).ready(function(){
 });
 
     function updateProgress() {
-        var valeur = 30;
-        $('#surveyProgress').css('width', valeur+'%').attr('aria-valuenow', valeur);    
+        var percentComplete = 30;
+        $('#surveyProgress').css('width', percentComplete+'%').attr('aria-valuenow', percentComplete);    
         
     }
