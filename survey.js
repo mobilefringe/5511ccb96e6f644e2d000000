@@ -52,7 +52,7 @@ $(document).ready(function(){
         var percentComplete = 30;
         
         // Loop over the progress labels and set the ones where value <= percentComplete
-        container.find('.progress-labels div').forEach(function(ele){
+        container.find('.progress-labels div').each(function(key, ele){
             var ele = $(ele);
             
             ele.toggleClass('complete',parseFloat(ele.data('value')) <= percentComplete);
