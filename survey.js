@@ -57,6 +57,8 @@ $(document).ready(function(){
         $('#surveyQuestions .form-group').each(function(group) {
             // Loop over inputs to see if any one is selected
             var inputs = $(group).find('input');
+            hasValue = false;
+            
             for (var x in inputs) {
                 var ele = $(inputs[x]);
                 
