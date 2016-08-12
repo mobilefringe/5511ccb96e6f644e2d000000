@@ -2,6 +2,7 @@ $(document).ready(function(){
     // var host = "http://twinpines.lvh.me:3000/";
     // var host = "https://twinpines.mallmaverickstaging.com";
     // var contest = "twinpines-contest-2";
+    var propertyDetails = getPropertyDetails();
 
     var host = propertyDetails.mm_host
     var contest = "merivale-survey";
@@ -27,7 +28,6 @@ $(document).ready(function(){
             return false;
         };
         
-        var propertyDetails = getPropertyDetails();
 
         
         $.ajax({
