@@ -1,9 +1,6 @@
 $(document).ready(function(){
-    var propertyDetails = getPropertyDetails();
+    loadMallData();
 
-    var host = propertyDetails.mm_host
-    var contest = "merivale-survey";
-    
     $('form[name="survey_form"]').validator().on('submit', function(e){
         if (e.isDefaultPrevented()) {
             alert("Please ensure that all marked fields are properly completed.");
@@ -21,9 +18,11 @@ $(document).ready(function(){
     });
 
     function submitContest(data) {
+        var propertyDetails = getPropertyDetails();
+    
+        var host = propertyDetails.mm_host
+        var contest = "merivale-survey";
 
-
-        
         $.ajax({
             url: [host, "contests", contest, "json_entry"].join("/"),
             type: "POST",
