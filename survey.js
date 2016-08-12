@@ -19,15 +19,12 @@ $(document).ready(function(){
         }
     });
     
-    function isValidForm() {
-        return true;
-    }
-    
+    $('#surveyProgress input').on('change', function(){
+        updateProgress();
+    });
+
     function submitContest(data) {
-        if (!isValidForm(data)) {
-            return false;
-        };
-        
+
 
         
         $.ajax({
