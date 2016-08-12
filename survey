@@ -251,25 +251,25 @@
                         </div>
                     
                         <div class="col-md-6 form-group">
-                            <label>Email</label>
-                            <input class="form-control" type="email" name="email" required/>
+                            <label>Email*</label>
+                            <input class="form-control" type="email" name="email" required />
                         </div>
                     </div>
                     
                     <div class="row">
                         <div class="col-md-4 form-group">
-                            <label>City</label>
-                            <input class="form-control" type="text" name="city" />
+                            <label>City*</label>
+                            <input class="form-control" type="text" name="city" required />
                         </div>
                     
                         <div class="col-md-4 form-group">
                             <label>Postal Code</label>
-                            <input class="form-control" type="text" name="postal_code" />
+                            <input class="form-control" type="text" name="postal_code" required />
                         </div>
                     
                         <div class="col-md-4 form-group">
-                            <label>Date Of Birth</label>
-                            <input class="form-control" type="text" name="Date Of Birth" />
+                            <label>Date Of Birth*</label>
+                            <input class="form-control" type="text" name="Date Of Birth" required />
                         </div>
                     </div>
                 </div>
@@ -286,7 +286,7 @@ Winner(s) will be contacted via e-mail or by telephone. Must be 18 years or olde
             </div>
             <div class="form-group">
                 <label>
-                    <input type="checkbox" name="subscribe_to_newsletter" value="true"> I agree to the survey contest’s rules and regulations.
+                    <input type="checkbox" name="subscribe_to_newsletter" value="true" required /> I agree to the survey contest’s rules and regulations.
                         
                 </label>
             </div>
