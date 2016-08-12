@@ -35,7 +35,7 @@
         </div>
         
         <form name="survey_form" data-toggle="validator" novalidate>
-            <div class="surveyQuestions">
+            <div id="surveyQuestions">
                 <div class="form-group clear">
                     <label>1. Gender</label>
                     <div class="field-group horizontal">
