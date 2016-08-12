@@ -79,7 +79,7 @@ $(document).ready(function(){
             }
         });
         
-        var percentComplete = 30;
+        var percentComplete = parseInt( (totalAnswered / totalQuestions) * 100 );
         
         // Loop over the progress labels and set the ones where value <= percentComplete
         container.find('.progress-labels div').each(function(key, ele){
