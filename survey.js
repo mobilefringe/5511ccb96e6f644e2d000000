@@ -20,7 +20,7 @@ $(document).ready(function(){
     });
     
     $('#surveyQuestions input').on('change', function() {
-        console.log('u')
+        console.log('update');
         updateProgress();
     });
 
