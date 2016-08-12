@@ -80,7 +80,7 @@
                     </div>
                     
                     <div class="form-group">
-                        <div class="question">5. How long were you in the mall during your last visit at Merival Mall?</div>
+                        <div class="question">5. How long were you in the mall during your last visit at Merivale Mall?</div>
                         <div class="field-group horizontal">
                             <label><input type="radio" name="length_of_last_visit" value="< 30">Less than 30 minutes</label>
                             <label><input type="radio" name="length_of_last_visit" value="< 60">Less than 60 minutes</label>
