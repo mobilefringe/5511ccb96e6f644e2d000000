@@ -322,6 +322,4 @@ Winner(s) will be contacted via e-mail or by telephone. Must be 18 years or olde
     </div>
 </div>
 
-<script>
-
-</script>
+<script src="/survey.js" type="text/javascript"></script>
