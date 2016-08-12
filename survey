@@ -129,12 +129,12 @@
                     <div class="form-group clear">
                         <div class="question">8. What type of stores would you like to see more of at Merivale Mall?</div>
                         <div class="field-group vertical">
-                            <label><input type="radio" name="type_of_stores_to_see_more_of" value="Unisex Fashion">Unisex Fashion</label>
-                            <label><input type="radio" name="type_of_stores_to_see_more_of" value="Children's Clothing Stores">Children's Clothing Stores</label>
-                            <label><input type="radio" name="type_of_stores_to_see_more_of" value="Toy Store">Toy Stores</label>
-                            <label><input type="radio" name="type_of_stores_to_see_more_of" value="Footwear">Footwear</label>
-                            <label><input type="radio" name="type_of_stores_to_see_more_of" value="Higher Quality Merchandise">Higher Quality Merchandise</label>        
-                            <label><input type="radio" name="type_of_stores_to_see_more_of" value="Sit-Down Resteraunts">Sit-Down Resteraunts</label>
+                            <label><input type="radio" name="type_of_stores_to_see_more_of[]" value="Unisex Fashion">Unisex Fashion</label>
+                            <label><input type="radio" name="type_of_stores_to_see_more_of[]" value="Children's Clothing Stores">Children's Clothing Stores</label>
+                            <label><input type="radio" name="type_of_stores_to_see_more_of[]" value="Toy Store">Toy Stores</label>
+                            <label><input type="radio" name="type_of_stores_to_see_more_of[]" value="Footwear">Footwear</label>
+                            <label><input type="radio" name="type_of_stores_to_see_more_of[]" value="Higher Quality Merchandise">Higher Quality Merchandise</label>        
+                            <label><input type="radio" name="type_of_stores_to_see_more_of[]" value="Sit-Down Resteraunts">Sit-Down Resteraunts</label>
                             <div class="auto-width-container">
                                 <label class="left-element"><input type="radio" name="type_of_stores_to_see_more_of" value="other" />Other, please specify</label>
                                 <div class="right-element"><input type="text" class="inline form-control" name="type_of_stores_to_see_more_of_text" /></div>
