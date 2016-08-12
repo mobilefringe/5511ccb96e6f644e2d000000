@@ -72,7 +72,7 @@ $(document).ready(function(){
                     default:
                         if (ele.val()) {
                             totalAnswered++;
-                            break 2;
+                            continue 2;
                         }
                         break;
                 }
