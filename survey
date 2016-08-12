@@ -20,6 +20,7 @@
                 <div data-value="0">0%</div>
                 <div data-value="25">25%</div>
                 <div data-value="50">50%</div>
+                <div data-value="75">75%</div>
                 <div data-value="100">100%</div>
             </div>
             
