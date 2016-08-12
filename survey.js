@@ -47,7 +47,7 @@ $(document).ready(function(){
 });
 
     function updateProgress() {
-        var valuer = 30;
+        var valeur = 30;
         $('#surveyProgress').css('width', valeur+'%').attr('aria-valuenow', valeur);    
         
     }
