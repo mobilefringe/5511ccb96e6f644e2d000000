@@ -5,7 +5,7 @@ $(document).ready(function(){
     // var contest = "twinpines-contest-2";
     var contest = "merivale-survey";
     
-    $('form[name="survey_form"]').validator().on('submit', function(e){
+    $('form[name="survey_form"]').on('submit', function(e){
         e.preventDefault();
         
         var data = {};
