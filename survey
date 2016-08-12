@@ -316,7 +316,7 @@ Winner(s) will be contacted via e-mail or by telephone. Must be 18 years or olde
             <div class="center">
                 <h4 class="thank-you">Thank you for your valuable time and feedback!</h4>
             
-                <button class="btn btn-primary">Submit Survey &amp;<br/> Enter Contest</button>
+                <button class="btn btn-primary">Submit Survey <br/>&amp; Enter Contest</button>
             </div>
         </form>
     </div>
