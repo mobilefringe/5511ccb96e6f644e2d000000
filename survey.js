@@ -47,7 +47,15 @@ $(document).ready(function(){
 });
 
     function updateProgress() {
+        var container = $('#surveyProgress');
+        
         var percentComplete = 30;
-        $('#surveyProgress .progress-bar').css('width', percentComplete+'%').attr('aria-valuenow', percentComplete);    
+        
+        // Loop over the progress labels and set the ones where value <= percentComplete
+        container.find('.progress-labels div').each(function(ele){
+            ele.toggleClass('complete',parseFloat(ele.data('value')) <= percentComplete);
+        });
+        
+        container.find('.progress-bar').css('width', percentComplete+'%').attr('aria-valuenow', percentComplete);    
         
     }
