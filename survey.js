@@ -66,7 +66,7 @@ $(document).ready(function(){
                     case "radio":
                       if (ele.is(":checked")) {
                         totalAnswered++;
-                        break 2;
+                        continue 2;
                       };
                       break;
                     default:
