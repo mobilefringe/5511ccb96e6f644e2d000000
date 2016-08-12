@@ -61,14 +61,20 @@ $(document).ready(function(){
                 var ele = $(inputs[x]);
                 
                 // Test input to see if it has a value or is selected
-                switch ele.attr('type') {
+                switch (ele.attr('type')) {
                     case "checkbox":
                     case "radio":
-                      if (ele.is(:checked)) {
-                        
-                        break 2;   
-                      }
-                      
+                      if (ele.is(":checked")) {
+                        totalAnswered++;
+                        break 2;
+                      };
+                      break;
+                    default:
+                        if (ele.val()) {
+                            totalAnswered++;
+                            break 2;
+                        }
+                        break;
                 }
             }
         });
