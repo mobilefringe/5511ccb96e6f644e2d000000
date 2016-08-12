@@ -55,7 +55,7 @@ $(document).ready(function(){
         container.find('.progress-labels div').each(function(key, ele){
             var ele = $(ele);
             
-            ele.toggleClass('complete',parseFloat(ele.data('value')) <= percentComplete);
+            ele.toggleClass('completed',parseFloat(ele.data('value')) <= percentComplete);
         });
         
         container.find('.progress-bar').css('width', percentComplete+'%').attr('aria-valuenow', percentComplete);    
