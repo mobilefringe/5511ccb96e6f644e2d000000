@@ -19,7 +19,8 @@ $(document).ready(function(){
         }
     });
     
-    $('#surveyProgress input').on('change', function() {
+    $('#surveyQuestions input').on('change', function() {
+        console.log('u')
         updateProgress();
     });
 
