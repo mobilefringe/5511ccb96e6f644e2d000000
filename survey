@@ -409,6 +409,7 @@ Winner(s) will be contacted via e-mail or by telephone. Must be 18 years or olde
         $.ajax({
             url: [host, "contests", contest, "json_entry"].join("/"),
             type: "POST",
+            dataType: "json",
             data: data,
             success: function(data) {
                 window.location.href="/survey_thank_you";
