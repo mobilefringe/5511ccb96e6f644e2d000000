@@ -6,10 +6,10 @@ $(document).ready(function(){
     var contest = "merivale-survey";
     
     $('form[name="survey_form"]').on('submit', function(e){
-        e.preventDefault();
         if (e.isDefaultPrevented()) {
             alert("Please ensure that all marked fields are properly completed.");
         } else {
+            e.preventDefault();
             var data = {};
             data['json'] = JSON.stringify($('form[name="survey_form"]').serializeArray());
             submitContest(data);
