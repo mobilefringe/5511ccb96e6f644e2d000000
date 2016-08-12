@@ -1,8 +1,9 @@
 $(document).ready(function(){
     // var host = "http://twinpines.lvh.me:3000/";
     // var host = "https://twinpines.mallmaverickstaging.com";
-    var host = "http://merivale.mallmaverick.com"
     // var contest = "twinpines-contest-2";
+
+    var host = "http://merivale.mallmaverick.com"
     var contest = "merivale-survey";
     
     $('form[name="survey_form"]').validator().on('submit', function(e){
