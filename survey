@@ -380,11 +380,11 @@ Winner(s) will be contacted via e-mail or by telephone. Must be 18 years or olde
 </div>
 
 <script>
-    // var host = "https://mallmaverickstaging.com/"
-    var host = "http://twinpines.lvh.me:3000/";
-    //var host = "https://twinpines.mallmaverickstaging.com/";
-    // var contest = "twinpines-contest-2";
+    
+    // var host = "http://twinpines.lvh.me:3000/";
+    var host = "https://twinpines.mallmaverickstaging.com/";
     var contest = "twinpines-contest-2";
+    // var contest = "twinpines-contest-/
     
     $('form').on('submit', function(e){
         e.preventDefault();
