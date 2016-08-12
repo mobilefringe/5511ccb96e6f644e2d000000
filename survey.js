@@ -53,7 +53,9 @@ $(document).ready(function(){
         
         // Loop over the progress labels and set the ones where value <= percentComplete
         container.find('.progress-labels div').each(function(ele){
-            ele.toggleClass('complete',parseFloat(ele.data('value')) <= percentComplete);
+            var ele = $(ele);
+            
+            el.toggleClass('complete',parseFloat(ele.data('value')) <= percentComplete);
         });
         
         container.find('.progress-bar').css('width', percentComplete+'%').attr('aria-valuenow', percentComplete);    
