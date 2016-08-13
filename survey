@@ -119,7 +119,7 @@
                             <label class="center"><div>9</div><input type="radio" name="satisifaction_with_merivale_mall" value="9"></label>
                             <label class="center"><div>10</div><input type="radio" name="satisifaction_with_merivale_mall" value="10"></label>
                         </div>
-                        <div class="padding row-padding hidden-sm hidden-xs">
+                        <div class="padding row-padding">
                             <div class="pull-left">1 - Not at all satisifed</div>
                             <div class="pull-right">10 - Very satisifed</div>
                         </div>
