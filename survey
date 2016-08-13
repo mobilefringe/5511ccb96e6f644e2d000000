@@ -107,21 +107,21 @@
                     
                     <div class="form-group clear">
                         <div class="question">7. Using a scale from 1 to 10, where "1" is NOT at all satisfied and "10" is VERY satisfied, how would you rate Merival Mall overall?</div>
-                        <div class="field-group horizontal half-margin">
-                            <label><input type="radio" name="satisifaction_with_merivale_mall" value="1">1</label>
-                            <label><input type="radio" name="satisifaction_with_merivale_mall" value="2">2</label>
-                            <label><input type="radio" name="satisifaction_with_merivale_mall" value="3">3</label>
-                            <label><input type="radio" name="satisifaction_with_merivale_mall" value="4">4</label>
-                            <label><input type="radio" name="satisifaction_with_merivale_mall" value="5">5</label>
-                            <label><input type="radio" name="satisifaction_with_merivale_mall" value="6">6</label>
-                            <label><input type="radio" name="satisifaction_with_merivale_mall" value="7">7</label>
-                            <label><input type="radio" name="satisifaction_with_merivale_mall" value="8">8</label>
-                            <label><input type="radio" name="satisifaction_with_merivale_mall" value="9">9</label>
-                            <label><input type="radio" name="satisifaction_with_merivale_mall" value="10">10</label>
+                        <div class="field-group horizontal half-margin center-blocks">
+                            <label><div>1</div><input type="radio" name="satisifaction_with_merivale_mall" value="1"></label>
+                            <label><div>2</div><input type="radio" name="satisifaction_with_merivale_mall" value="2"></label>
+                            <label><div>3</div><input type="radio" name="satisifaction_with_merivale_mall" value="3"></label>
+                            <label><div>4</div><input type="radio" name="satisifaction_with_merivale_mall" value="4"></label>
+                            <label><div>5</div><input type="radio" name="satisifaction_with_merivale_mall" value="5"></label>
+                            <label><div>6</div><input type="radio" name="satisifaction_with_merivale_mall" value="6"></label>
+                            <label><div>7</div><input type="radio" name="satisifaction_with_merivale_mall" value="7"></label>
+                            <label><div>8</div><input type="radio" name="satisifaction_with_merivale_mall" value="8"></label>
+                            <label><div>9</div><input type="radio" name="satisifaction_with_merivale_mall" value="9"></label>
+                            <label><div>10</div><input type="radio" name="satisifaction_with_merivale_mall" value="10"></label>
                         </div>
                         <div class="padding row-padding hidden-sm hidden-xs">
-                            <div class="pull-left">Not at all satisifed</div>
-                            <div class="pull-right">Very satisifed</div>
+                            <div class="pull-left">1 - Not at all satisifed</div>
+                            <div class="pull-right">10 - Very satisifed</div>
                         </div>
                     </div>
                     
