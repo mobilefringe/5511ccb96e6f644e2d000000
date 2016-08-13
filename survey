@@ -107,7 +107,7 @@
                     
                     <div class="form-group clear">
                         <div class="question">7. Using a scale from 1 to 10, where "1" is NOT at all satisfied and "10" is VERY satisfied, how would you rate Merival Mall overall?</div>
-                        <div class="field-group horizontal half-margin center-blocks">
+                        <div class="field-group horizontal half-margin numeric-count">
                             <label class="center"><div>1</div><input type="radio" name="satisifaction_with_merivale_mall" value="1"></label>
                             <label class="center"><div>2</div><input type="radio" name="satisifaction_with_merivale_mall" value="2"></label>
                             <label class="center"><div>3</div><input type="radio" name="satisifaction_with_merivale_mall" value="3"></label>
