@@ -313,8 +313,8 @@
                             </div>
                         
                             <div class="col-md-4 form-group">
-                                <label for="date_of_birth">Date Of Birth*</label>
-                                <input class="form-control" type="text" name="date_of_birth" required />
+                                <label for="date_of_birth">Date Of Birth (d/M/Y)*</label>
+                                <input class="form-control" type="text" name="date_of_birth" required pattern="[0123]{1,2}\/[01][12]?\/[(19)|(20)][0-9]{2}$" />
                                 <div class="help-block with-errors"></div>
                             </div>
                         </div>
