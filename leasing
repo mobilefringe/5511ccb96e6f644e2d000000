@@ -1,0 +1,133 @@
+<div id="loading_screen">
+    <img alt="loading" src="//kodekloud.s3.amazonaws.com/sites/5447ebb66e6f641987020000/3604f5c26997bea3de504de139debcec/loading.gif"/>
+</div>
+<div  id="main_content" style="display:none">
+    <ul class="breadcrumb">
+        <li><a href="/home">Home</a> </li>
+        <li class="active">Leasing</li>
+    </ul>
+    <div class="page_banner">
+        leasing
+    </div>
+    <div class="inside_page_content">
+        <div class="left_column">
+            <img class="inside_banner_image" alt="banner" src="//kodekloud.s3.amazonaws.com/sites/54edfd7a6e6f640717000000/2804b99a4a7c2ed210ec0bfcd23dfaee/Banner-Image-008_edited.jpg"/>
+            <p class="columns_2">
+                
+               <H2>Market Summary</H2>
+               <p>Merivale Mall is located on the busiest major artery in Nepean. Built in 1976, it is in the planning stages of major redevelopment. With anchors such as Farm Boy, Sport Chek, Shoppers Drug Mart, YMCA Fitness and a 22,000 square feet sportsbar it has something for everyone. The community shopping centre serves the immediate needs of the surrounding neighbourhood as well as the overall needs of an enlarged trading area due to the unique anchors. Now proudly managed by Bentall Kennedy.</p>
+               <br>
+               <strong>Total GLA:  </strong><br>225,081 square feet <br><br>
+               
+               
+              
+         
+          
+          <section class="article-text">
+               
+                        <br>
+                        <p style="margin-bottom:0"><strong>Major Tenants:</strong></p>
+                        <p>Farm Boy
+                            <br>Sport Chek
+                            <br>Shoppers Drug Mart
+                            
+                           
+                          
+                            
+                           
+                        </p>    
+                        <br>
+                        <p><strong>Ancillary:  </strong>30 stores</p>
+                   
+                        <table>
+                            <tr>
+                                <td style="width:215px"><strong>Demographics:</strong></td>
+                                <td style="width:100px">1km</td>
+                                <td style="width:100px">3km</td>
+                                 <td style="width:100px">5km</td>
+                            </tr>
+                            <tr>
+                                <td style="width:215px"><strong>Total Population:</strong></td>
+                                <td style="width:100px">3,659</td>
+                                <td style="width:100px">24,433</td>
+                                <td style="width:100px">63,663</td>
+                            </tr>
+                            <tr>
+                                <td style="width:215px"><strong>Total Households:</strong></td>
+                                <td style="width:100px">9,300</td>
+                                <td style="width:100px">66,572</td>
+                                <td style="width:100px">161,848</td>
+                            </tr>
+                            <tr>
+                                <td style="width:215px"><strong>Household Average Income:</strong></td>
+                                <td style="width:100px">$73,647</td>
+                                <td style="width:100px">$86,591</td>
+                                <td style="width:100px">$90,361</td>
+                            </tr>
+                        </table>
+                        <br>
+             
+                        <h3>For Leasing Inquiries Contact:</h3>
+                  
+                        <p>Bob Armstrong
+                        <br>General Manager
+                        <br>613-226-1290 x 226
+                        <br><a href="mailto:barmstrong@bentallkennedy.com "><strong>barmstrong@bentallkennedy.com</strong></a>
+                        <br>
+                        <br>
+                        <a href="//kodekloud.s3.amazonaws.com/sites/5511ccb96e6f644e2d000000/9da4ca45f9e89b4ff0c10f63680c6a3d/Merivale%20Mall%20Site%20Plan%20January%202015.pdf" target="blank"><strong>Click to download site plan PDF</strong></a>
+                            
+                        </p>
+        </div>
+         
+        <div class="right_column">
+            <p class="right_column_header">centre information</p>
+            <div id="centre_info_container">
+                <script id="centre_info_template" type="x-tmpl-mustache/text">
+                    <p class="directory_content">{{name}}</p>
+                    <p class="directory_content">{{address1}}</p>
+                    <p class="directory_content">{{city}}, {{province_state}} {{postal_code}}</p>
+                </script>
+            </div>
+            
+            
+        </div>
+  
+</div>
+<script>
+    $(document).ready(function() {
+        function renderAll (){
+            var propertyDetails = getPropertyDetails();
+            renderPageData('#centre_info_container','#centre_info_template',propertyDetails, 'property_details')
+            $("#loading_screen").hide();
+            $("#main_content").show();
+        }
+        
+    
+        function renderPageData(container, template, collection, type){
+            var item_list = [];
+            var item_rendered = [];
+            var template_html = $(template).html();
+            Mustache.parse(template_html);   // optional, speeds up future uses
+            if (type == "property_details"){
+                item_list.push(collection);
+                collection = []
+                collection = item_list;
+            }
+            $.each( collection , function( key, val ) {
+                var rendered = Mustache.render(template_html,val);
+                item_rendered.push(rendered);
+    
+            });
+            
+            $(container).show();
+            $(container).html(item_rendered.join(''));
+        };
+
+        loadMallData(renderAll);  
+
+    
+  
+    });
+    
+</script>
