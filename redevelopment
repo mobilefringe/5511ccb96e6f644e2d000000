@@ -1,0 +1,100 @@
+<div id="loading_screen">
+    <img alt="loading" src="//kodekloud.s3.amazonaws.com/sites/5447ebb66e6f641987020000/3604f5c26997bea3de504de139debcec/loading.gif"/>
+</div>
+<div  id="main_content" style="display:none">
+    <ul class="breadcrumb">
+        <li><a href="/home">Home</a> </li>
+        <li class="active">Redevelopment</li>
+    </ul>
+    <div class="page_banner">
+        Redevelopment
+    </div>
+    <div class="inside_page_content">
+        <div class="left_column">
+            <img class="inside_banner_image" alt="banner" src="//kodekloud.s3.amazonaws.com/sites/5511ccb96e6f644e2d000000/40ac7d0739275bdc1a454fa7806cec43/redevelopment_title.png"/>
+            <h2 style="text-align: center;"><strong>Merivale Mall Announces $10 Million</strong></h2>
+
+<h2 style="text-align: center;"><strong>Redevelopment Project</strong></h2>
+
+<p>&nbsp;</p>
+
+<p><strong>For Immediate Release:</strong></p>
+
+<p><strong>February 19, 2015, Ottawa, ON</strong> &ndash; Merivale Mall today announced its plans for a $10 million dollar redevelopment project that will include a newly built, 25,900 sq. ft Marshalls department store and relocation and redesign of &nbsp;Sport Chek. &nbsp;Also as part of the renovation project, enhancements will be made to the centre&rsquo;s mall entrances, flooring and ceiling. &nbsp;</p>
+
+<p>The construction project that is currently underway is scheduled to be complete by Fall 2015.&nbsp;</p>
+
+<p>Bob Armstrong, General Manager of Merivale Mall is elated to be part of the team overseeing this project .&nbsp; &ldquo;The shopping centre has been part of the Nepean community since 1976.&nbsp; This redevelopment project has been designed to allow the centre to better serve its community and solidify its position within our competitive retail market.&rdquo;&nbsp;</p>
+
+<p>Councillor (College Ward) Rick Chiarelli encourages the project.&nbsp; &ldquo;I&rsquo;m very excited about the redevelopment of Merivale Mall, it&rsquo;s a smart move and a step in the right direction to bringing life back into the area for residents and shoppers from across the City.&nbsp; This is a brilliant&nbsp; improvement.&rdquo;</p>
+
+<p>Throughout the construction period, the centre will remain open for business.&nbsp;&nbsp; Minimizing disruption for our valued shoppers and merchants is our ultimate priority.&nbsp; Additional information on the project and specific retail announcements will be shared over the coming months.&nbsp;</p>
+
+<p>Attached find architect renderings of the centre&rsquo;s proposed renovation project.&nbsp; Merivale Mall located at 1642 Merivale Road is proudly managed by Bentall Kennedy (Canada) LP.&nbsp;</p>
+
+<p>Bentall Kennedy is one of North America&#39;s largest real estate investment advisors and one of its foremost providers of real estate services. Bentall Kennedy serves the interests of close to 500 investors and their 134 million square feet of office, retail, industrial, and multi-residential properties valued at over $32 billion throughout Canada and the U.S. Bentall Kennedy is a member of UN PRI and is a recognized global leader in Responsible Property Investing.</p>
+
+<p>&nbsp;</p>
+
+<p>For further information, contact:</p>
+
+<p>Bob Armstrong, General Manager,</p>
+
+<p>Merivale Mall</p>
+
+<p>T: 613.226.1290</p>
+
+<p>E: <a href="mailto:barmstrong@bentallkennedy.com">barmstrong@bentallkennedy.com</a></p>
+
+        </div>
+        <div class="right_column">
+            <p class="right_column_header">centre information</p>
+            <div id="centre_info_container">
+                <script id="centre_info_template" type="x-tmpl-mustache/text">
+                    <p class="directory_content">{{name}}</p>
+                    <p class="directory_content">{{address1}}</p>
+                    <p class="directory_content">{{city}}, {{province_state}} {{postal_code}}</p>
+                </script>
+            </div>
+            
+            
+        </div>
+    </div>
+</div>
+<script>
+    $(document).ready(function() {
+        function renderAll (){
+            var propertyDetails = getPropertyDetails();
+            renderPageData('#centre_info_container','#centre_info_template',propertyDetails, 'property_details')
+            $("#loading_screen").hide();
+            $("#main_content").show();
+        }
+        
+    
+        function renderPageData(container, template, collection, type){
+            var item_list = [];
+            var item_rendered = [];
+            var template_html = $(template).html();
+            Mustache.parse(template_html);   // optional, speeds up future uses
+            if (type == "property_details"){
+                item_list.push(collection);
+                collection = []
+                collection = item_list;
+            }
+            $.each( collection , function( key, val ) {
+                var rendered = Mustache.render(template_html,val);
+                item_rendered.push(rendered);
+    
+            });
+            
+            $(container).show();
+            $(container).html(item_rendered.join(''));
+        };
+
+        loadMallData(renderAll);  
+
+    
+  
+    });
+    
+</script>
