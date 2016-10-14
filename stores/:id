@@ -214,24 +214,30 @@ background-color: #FFFFFF ;
             store_promos = store_promos.reverse();
             promo_array = []
              $.each( store_promos , function( key, val ){
-                 today = new Date();
-                 webDate = new Date(val.show_on_web_date);
-                 if (today >= webDate) {
-                     promo_array.push(val)
-                 } 
-             });
+                //  today = new Date();
+                //  webDate = new Date(val.show_on_web_date);
+                 
+                today = moment();
+                webDate = moment(val.show_on_web_date); 
+                if (today >= webDate) {
+                    promo_array.push(val)
+                } 
+            });
             store_promos = promo_array;
             var jobs = getJobsForIds(store_details.jobs);
             jobs = jobs.reverse();
             jobs_array = []
              $.each( jobs , function( key, val ){
-                 today = new Date();
-                 webDate = new Date(val.show_on_web_date);
-                 if (today >= webDate) {
-                     jobs_array.push(val)
-                 } 
-             });
-             jobs = jobs_array;
+                //  today = new Date();
+                //  webDate = new Date(val.show_on_web_date);
+                 
+                today = moment();
+                webDate = moment(val.show_on_web_date);
+                if (today >= webDate) {
+                    jobs_array.push(val)
+                } 
+            });
+            jobs = jobs_array;
             $('#loading_screen').hide();
             $('#main_content').fadeIn();
             // store_details.map_x_coordinate = store_details.x_coordinate - 19;
@@ -259,11 +265,7 @@ background-color: #FFFFFF ;
                     regions[val.svgmap_region] = obj
                 }
             });
-            
             load_map(regions, store_details);
-            
-            
-            
         }
         
         function get_month (id){
@@ -395,15 +397,24 @@ background-color: #FFFFFF ;
                             break;
                         
                     }
+                    // if (val.open_time && val.close_time && (val.is_closed == false || val.is_closed == null)){
+                    //     var open_time = new Date (val.open_time)
+                    //     var close_time = new Date (val.close_time)
+                    //     val.open_time = convert_hour(open_time);
+                    //     val.close_time = convert_hour(close_time);    
+                    //     val.h = val.day+": "+val.open_time+ " - " + val.close_time;
+                    // } else {
+                    //     val.h = val.day+": Closed"
+                    // }
+                    
                     if (val.open_time && val.close_time && (val.is_closed == false || val.is_closed == null)){
-                        var open_time = new Date (val.open_time)
-                        var close_time = new Date (val.close_time)
-                        val.open_time = convert_hour(open_time);
-                        val.close_time = convert_hour(close_time);    
-                        val.h = val.day+": "+val.open_time+ " - " + val.close_time;
+                        var open_time = moment(val.open_time).tz(getPropertyTimeZone());
+                        var close_time = moment(val.close_time).tz(getPropertyTimeZone());
+                        val.h = val.day + ": " + vopen_time.format("h:mm A") + " - " + close_time.format("h:mm A");
                     } else {
                         val.h = val.day+": Closed"
                     }
+                    
                     var rendered = Mustache.render(template_html,val);
                     item_rendered.push(rendered);
                     
