@@ -56,12 +56,15 @@
             all_promos = all_promos.reverse();
             promo_array = []
              $.each( all_promos , function( key, val ){
-                 today = new Date();
-                 webDate = new Date(val.show_on_web_date)
-                 if (today >= webDate) {
-                     promo_array.push(val)
-                 } 
-             });
+                //  today = new Date();
+                //  webDate = new Date(val.show_on_web_date)
+                 
+                today = moment();
+                webDate = moment(val.show_on_web_date)
+                if (today >= webDate) {
+                    promo_array.push(val)
+                } 
+            });
             all_promos = promo_array;
             if (all_promos.length > 0 ) {
                 renderPageData("#promo_list_container","#promo_list_template", all_promos, "promos");    
