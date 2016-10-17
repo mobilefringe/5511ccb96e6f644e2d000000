@@ -55,7 +55,7 @@
             all_promos = getPromotionsList();
             all_promos = all_promos.reverse();
             promo_array = []
-             $.each( all_promos , function( key, val ){
+            $.each( all_promos , function( key, val ){
                 //  today = new Date();
                 //  webDate = new Date(val.show_on_web_date)
                  
@@ -71,12 +71,10 @@
             } else {
                 $("#no_event_container").show();
             } 
-            
             $("#loading_screen").hide();
             $("#main_content").show();
             $.getScript("//cdn.jsdelivr.net/slimbox/2.0.5/js/slimbox2.js");
             $('head').append('<link rel="stylesheet" href="//cdn.jsdelivr.net/slimbox/2.0.5/css/slimbox2.css" type="text/css" media="screen" />');
-
         }
         
     
@@ -90,7 +88,6 @@
                 collection = []
                 collection = item_list;
             }
-            
             $.each( collection , function( key, val ) {
                 if (type == "promos"){
                     if ((val.promo_image_url_abs).indexOf('missing.png') > -1){
@@ -126,7 +123,12 @@
                     
                     var start = moment(val.start_date).tz(getPropertyTimeZone());
                     var end = moment(val.end_date).tz(getPropertyTimeZone());
-                    val.dates = start.format("MMM D") + " - " + end.format("MMM D");
+                    if (start.format("DMY") == end.format("DMY")){
+                    	val.dates = start.format("MMM D");
+                    }
+                    else{
+                    	val.dates = start.format("MMM D") + " - " + end.format("MMM D");
+                    }
                 }
                 var rendered = Mustache.render(template_html,val);
                 item_rendered.push(rendered);
