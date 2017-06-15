@@ -100,9 +100,10 @@
             imagePath: '//cdn.jsdelivr.net/jquery.jreject/1.0.2/images/'
         });      
     });
+    
     setEndPoint('//merivale.mallmaverick.com/api/v3/merivale/all.json');
-    sessionStorage.setItem('primary_locale', 'en-CA');
-    sessionStorage.setItem('secondary_locale', 'fr-CA');
+    // sessionStorage.setItem('primary_locale', 'en-CA');
+    // sessionStorage.setItem('secondary_locale', 'fr-CA');
 </script>
 <style>
     /*custom styles*/
