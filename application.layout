@@ -55,6 +55,7 @@
     <!--<script src="//mallmaverick.codecloudapp.com/mallmaverick_v4.js"></script>-->
     <script src="http://preview-mallmaverick.codecloudapp.com/mallmaverick_v4.js"></script>
     <script src="//mallmaverick.codecloudapp.com/mustache_mallmaverick.js?v=0.3"></script>
+    <script src="http://preview-mallmaverick.codecloudapp.com/mustache_mallmaverick.js"></script>
 
     <script src="//cdn.jsdelivr.net/jquery.zoomooz/1.1.6/jquery.zoomooz.min.js"></script>
 
@@ -415,15 +416,10 @@
                             </li>
                         </ul>
                     </div>
-                 </div>
-                 
-                 
+                </div>
             </div>
         </div>
-        
-        
     </section>
-    
     <section class="site-map-section">
         <div class="bottom-site-map">
             <ul style="margin-bottom:0;padding:0">
@@ -442,7 +438,6 @@
                 <li>
                     <a href="/contact_us">contact Us</a>
                 </li>
-                
             </ul>
         </div>
     </section>
@@ -471,7 +466,6 @@
 
 <script>
     function show_results(id){
-        
         if ( $("#"+id+"_results").is(":visible")){
             $("#"+id+"_results").slideUp();
             $("#"+id+"_arrow").removeClass("fa-chevron-down", 1000);
@@ -484,10 +478,8 @@
             $("#"+id+"_arrow").removeClass("fa-chevron-right", 1000);
             $("#"+id+"_arrow").addClass("fa-chevron-down", 1000);
         }
-        
     }
-        
-
+    
     if(navigator.appVersion.indexOf("MSIE 9.") == -1){
         
     } else {
@@ -500,18 +492,16 @@
         } else {
             alert("Please check the agree box if you want to proceed.")
         }
-        
     });
     
-
     function toggle_menu (){
         if ($(".mobile_menu").is(":visible")){
             $(".mobile_menu").slideUp();
         } else {
             $(".mobile_menu").slideDown();    
         }
-        
     }
+    
     function toggle_submenu(id){
         if ($("#"+id).is(":visible")){
             $("#"+id).slideUp();
@@ -519,18 +509,16 @@
             $(".submenu").slideUp();
             $("#"+id).slideDown();
         }
-        
     }
 
     $(document).ready(function() {
-        
         function renderPageData (){
             var propertyDetails = getPropertyDetails();
             renderPropertyLogo('#logo_template','#site_logo',propertyDetails);
             renderPropertyFooter('#footer_template','#footer_container',propertyDetails);
             renderTodaysHours('#todays_hours_search_template','#todays-hours-search');
-            
         }
+        
         function renderPropertyLogo(logo_template,site_logo,propertyDetails){
             var item_list = [];
             var item_rendered = [];
@@ -581,12 +569,11 @@
             showSearchResults();
         });
             
-            
         function showSearchResults(){
             $('#search_results').show();
             if($('#search_input').val().length == 0){
                 $('#search_results').hide();
-            }else{
+            } else {
                 var search_results = getSearchResults($('#search_input').val(),10,100);
                 $('.search-results-count').html("Total Results : "+search_results.summary.count);
                 renderSearchResultsTemplate('#search_results_template','#search_results_items',search_results);
@@ -595,7 +582,6 @@
                         $("#store_results_header").html(search_results["stores"].length+" Stores <i id='store_arrow' class='fa fa-chevron-right pull-right'></i>") ;
                         $("#store_results_header").show();
                     }
-                    
                 } else {
                     $("#store_results_header").hide();
                 }
@@ -604,7 +590,6 @@
                         $("#promotions_results_header").html(search_results["promotions"].length+" Promotions <i id='promo_arrow' class='fa fa-chevron-right pull-right'></i>")    ;
                         $("#promotions_results_header").show();
                     }
-                    
                 } else {
                     $("#promotions_results_header").hide();
                 }
@@ -613,14 +598,11 @@
                         $("#events_results_header").html(search_results["events"].length+" Events <i id='event_arrow' class='fa fa-chevron-right pull-right'></i>")    
                         $("#events_results_header").show();
                     }
-                    
                 } else {
                     $("#events_results_header").hide();
                 }
-                // $(document).i18n();
             }
         }
-        
         
         $('.close-search').click(function(){
             $('#search_results').hide();
@@ -634,7 +616,7 @@
                 renderSearchResultsTemplate('#search_results_template','#search_results_items_mobile',search_results);
                 $(document).i18n();
                 $('#search_results_mobile').hide();
-            }else{
+            } else {
                 var search_results = getSearchResults($('#search_input_mobile').val(),10,100);
                 $('.search-results-count').html(search_results.summary.count);
                 //console.log('--------');
@@ -650,7 +632,6 @@
             $(document).i18n();
             $('#search_input_mobile').val('')
         });
-    
     });
     
      // hide #back-top first
