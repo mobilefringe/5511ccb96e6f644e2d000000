@@ -54,7 +54,7 @@
     <!-- MallMaverick -->
     <!--<script src="//mallmaverick.codecloudapp.com/mallmaverick_v4.js"></script>-->
     <script src="http://preview-mallmaverick.codecloudapp.com/mallmaverick_v4.js"></script>
-    <script src="//mallmaverick.codecloudapp.com/mustache_mallmaverick.js?v=0.3"></script>
+    <!--<script src="//mallmaverick.codecloudapp.com/mustache_mallmaverick.js?v=0.3"></script>-->
     <script src="http://preview-mallmaverick.codecloudapp.com/mustache_mallmaverick.js"></script>
 
     <script src="//cdn.jsdelivr.net/jquery.zoomooz/1.1.6/jquery.zoomooz.min.js"></script>
