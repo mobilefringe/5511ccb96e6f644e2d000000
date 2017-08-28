@@ -408,9 +408,6 @@
                                     <span>
                                         {{open_time}} - {{close_time}}
                                     </span>
-                                    <span>
-                                        Closed
-                                    </span>
                                 </script>{% endraw %}
                             </a>
                             </li>
