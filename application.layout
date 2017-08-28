@@ -666,8 +666,8 @@
             if (val.open_time && val.close_time && (val.is_closed == false || val.is_closed == null)){
                 var open_time = moment(val.open_time).tz(getPropertyTimeZone());
                 var close_time = moment(val.close_time).tz(getPropertyTimeZone());
-                val.open_time = open_time.format("h a");
-                val.close_time = close_time.format("h a");
+                val.open_time = open_time.format("h:mm a");
+                val.close_time = close_time.format("h:mm a");
             } else {
                 val.open = "Closed Today";
                 val.hours = "";
