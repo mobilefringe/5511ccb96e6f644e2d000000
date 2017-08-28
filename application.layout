@@ -405,10 +405,10 @@
                                 
                                 </small>
                                 <script id="todays_hours_search_template" type="x-tmpl-mustache/text">{% raw %}
-                                    <span style="{{is_open_css}};">
+                                    <span>
                                         {{open_time}} - {{close_time}}
                                     </span>
-                                    <span style="{{is_closed_css}};">
+                                    <span>
                                         Closed
                                     </span>
                                 </script>{% endraw %}
