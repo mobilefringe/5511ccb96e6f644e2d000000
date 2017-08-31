@@ -262,11 +262,11 @@
         }
     }
     
-    function getSVGMapURL(){
-        initData();
-        var mallDataJSON = JSON.parse(sessionStorage.mallData);
-        return 'https://mallmaverick.cdn.speedyrails.net' + mallDataJSON.property.svgmap_url;
-    }
+    // function getSVGMapURL(){
+    //     initData();
+    //     var mallDataJSON = JSON.parse(sessionStorage.mallData);
+    //     return 'https://mallmaverick.cdn.speedyrails.net' + mallDataJSON.property.svgmap_url;
+    // }
 
     $("#storelist_container").on('change', function() {
         
