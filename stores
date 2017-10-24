@@ -69,10 +69,9 @@
         function renderAll (){
             var stores = getStoresList();
             renderPageData('#store_list_container','#store_list_template', stores, "stores");
-            // var category_stores = getStoresListByCategory();
-            // var categories = getStoreCategories();
+
             var propertyDetails = getPropertyDetails();
-            renderPageData('#centre_info_container','#centre_info_template',propertyDetails, 'property_details')
+            renderPageData('#centre_info_container', '#centre_info_template', propertyDetails, 'property_details');
             
             var categories = getStoreCategories();
             var category_list = [];
