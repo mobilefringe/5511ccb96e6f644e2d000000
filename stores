@@ -145,7 +145,6 @@
     
 
         function render_category_stores(){
-            
             var category_stores = [];
             var item_rendered = [];
             var all_stores = getStoresList();
@@ -161,7 +160,6 @@
                         category_stores.push(all_stores[j]);
                         stores_per_cat.push(all_stores[j]);
                     }
-                
                 }
                 var rendered = Mustache.render(template_html,all_categories[i]);
                 item_rendered.push(rendered);
@@ -176,7 +174,6 @@
                         all_stores[j].alt_store_front_url = getImageURL(all_stores[j].store_front_url);    
                         populate_stores_for_cat(all_categories[i].id, all_stores[j]);
                     }
-                
                 }
             }
         };
