@@ -280,12 +280,12 @@
                          </li>
                          <li id="event_link"><a href="/events">Events</a></li>
                          <li id="promotion_link"><a href="/promotions">Promotions</a></li>
-                         <li id="leasing_link" class="dropdown"><a data-toggle="dropdown" class="dropdown-toggle">Leasing <span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="/leasing">Leasing</a></li>
-                                <li><a href="/photos">Photos</a></li>
-                            </ul> 
-                         </li>
+                         <!--<li id="leasing_link" class="dropdown"><a data-toggle="dropdown" class="dropdown-toggle">Leasing <span class="caret"></span></a>-->
+                         <!--   <ul class="dropdown-menu">-->
+                         <!--       <li><a href="/leasing">Leasing</a></li>-->
+                         <!--       <li><a href="/photos">Photos</a></li>-->
+                         <!--   </ul> -->
+                         <!--</li>-->
                          <li id="contact_link" class="dropdown"><a data-toggle="dropdown" class="dropdown-toggle">contact us <span class="caret"></span></a>
                              <ul class="dropdown-menu">
                                 <li><a href="/contact_us">Contact Us</a></li>
