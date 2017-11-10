@@ -20,43 +20,29 @@
                         <p class="directory_content">{{address1}}</p>
                         <p class="directory_content">{{city}}, {{province_state}} {{postal_code}}</p>
                         <br>
-                    <p class="directory_content"><strong>Cindy Lavigne</strong> 
-                    <br>General Manager
-                    <br>613-226-1290 ext. 226
-                    <br><a href="mailto:clavigne@bentallkennedy.com">clavigne@bentallkennedy.com</a></p>
+                    <p class="directory_content"><strong>Management Office</strong> 
+                    <br>Phone: 613-748-7767
+                    <br>Fax: 613-748-3602
+                    <br>Office Hours:
+                    <br>Mon-Fri 9am-5pm</p>
                     <br>
-                     <p class="directory_content"><strong>Jennifer Crispel</strong> 
-                    <br>Director, Leasing*
-                    <br>1.866.681.2715
-                    <br><a href="mailto:jcrispel@bentallkennedy.com">jcrispel@bentallkennedy.com</a>
-                    <br>*Sales Representative</p>
-                    <br>
-                   <p class="directory_content"><strong>Robin Forrest</strong> 
-                   <br>Operations Manager
-                   <br>613-226-1290 Ext 228
-                   <br><a href="mailto:RForrest@BentallKennedy.com" target="_blank">rforrest@BentallKennedy.com</a></p>
-                   <br>
+                     <p class="directory_content"><strong>Gary Hurley</strong> 
+                    <br>Senior Property Manager
+                    <br>613-742-3774
+                    <br><a href="mailto:gary.hurley@fcrms.ca">gary.hurley@fcrms.ca</a>
                    
-                   <p class="directory_content"><strong>Kirsty McAleese</strong> 
-                   <br>Marketing 
-                   <br>613-226-1290 ext 222 
-                   <br><a href="mailto:kmcaleese@bentallkennedy.com">kmcaleese@bentallkennedy.com</a></p>
                     <br>
-                   <p class="directory_content"><strong>Christina DeRyke</strong> 
-                   <br>Retail Accounts Coordinator
-                   <br>613-226-1290 ext 223
-                   <br> <a href="mailto:cderyke@bentallkennedy.com">cderyke@bentallkennedy.com</a></p>
-                    <br>
-                   <p class="directory_content"><strong>Kirsty McAleese</strong> 
-                   <br>Assitant Property Manager
-                   <br>613-226-1290 ext 222
-                   <br> <a href="mailto:kmcaleese@bentallkennedy.com">kmcaleese@bentallkennedy.com</a></p>
+                   <p class="directory_content"><strong>Angela Hynes</strong> 
+                   <br>Property Administrator   
+                   <br>613-742-3771
+                   <br><a href="mailto:Angela.hynes@fcrms.ca" target="_blank">Angela.hynes@fcrms.ca</a></p>
                    <br>
-                   <p class="directory_content"><strong>Security</strong> 
-                   <br>613-296-7781
-                   <br><br>
-                   <p class="directory_content"><strong>ClixFix</strong> 
-                   <br>1-866-Clixfix (254-5349)
+                  
+                   <p class="directory_content"><strong>Christina DeRyke</strong> 
+                   <br>Property Administrator   
+                   <br> <a href="mailto:Christina.deryke@fcrms.ca">Christina.deryke@fcrms.ca</a></p>
+                    <br>
+                   
                     </script>
                 </div>
             </div>
@@ -124,43 +110,28 @@
                     <p class="directory_content">{{address1}}</p>
                     <p class="directory_content">{{city}}, {{province_state}} {{postal_code}}</p>
                      <br>
-                    <p class="directory_content"><strong>Cindy Lavigne</strong> 
-                    <br>General Manager
-                    <br>613-226-1290 ext. 226
-                    <br><a href="mailto:clavigne@bentallkennedy.com">clavigne@bentallkennedy.com</a></p>
+                     <p class="directory_content"><strong>Management Office</strong> 
+                    <br>Phone: 613-748-7767
+                    <br>Fax: 613-748-3602
+                    <br>Office Hours:
+                    <br>Mon-Fri 9am-5pm</p>
                     <br>
-                     <p class="directory_content"><strong>Jennifer Crispel</strong> 
-                    <br>Director, Leasing*
-                    <br>1.866.681.2715
-                    <br><a href="mailto:jcrispel@bentallkennedy.com">jcrispel@bentallkennedy.com</a>
-                    <br>*Sales Representative</p>
-                    <br>
-                   <p class="directory_content"><strong>Robin Forrest</strong> 
-                   <br>Operations Manager
-                   <br>613-226-1290 Ext 228
-                   <br><a href="mailto:RForrest@BentallKennedy.com" target="_blank">rforrest@BentallKennedy.com</a></p>
-                   <br>
+                     <p class="directory_content"><strong>Gary Hurley</strong> 
+                    <br>Senior Property Manager
+                    <br>613-742-3774
+                    <br><a href="mailto:gary.hurley@fcrms.ca">gary.hurley@fcrms.ca</a>
                    
-                  <p class="directory_content"><strong>Kirsty McAleese</strong> 
-                   <br>Marketing 
-                   <br>613-226-1290 ext 222 
-                   <br><a href="mailto:kmcaleese@bentallkennedy.com">kmcaleese@bentallkennedy.com</a></p>
                     <br>
-                   <p class="directory_content"><strong>Christina DeRyke</strong> 
-                   <br>Retail Accounts Coordinator
-                   <br>613-226-1290 ext 223
-                   <br> <a href="mailto:cderyke@bentallkennedy.com">cderyke@bentallkennedy.com</a></p>
-                    <br>
-                   <p class="directory_content"><strong>Kirsty McAleese</strong> 
-                   <br>Assitant Property Manager
-                   <br>613-226-1290 ext 222
-                   <br> <a href="mailto:kmcaleese@bentallkennedy.com">kmcaleese@bentallkennedy.com</a></p>
+                   <p class="directory_content"><strong>Angela Hynes</strong> 
+                   <br>Property Administrator   
+                   <br>613-742-3771
+                   <br><a href="mailto:Angela.hynes@fcrms.ca" target="_blank">Angela.hynes@fcrms.ca</a></p>
                    <br>
-                   <p class="directory_content"><strong>Security</strong> 
-                   <br>613-296-7781
-                   <br><br>
-                   <p class="directory_content"><strong>ClixFix</strong> 
-                   <br>1-866-Clixfix (254-5349)
+                  
+                   <p class="directory_content"><strong>Christina DeRyke</strong> 
+                   <br>Property Administrator   
+                   <br> <a href="mailto:Christina.deryke@fcrms.ca">Christina.deryke@fcrms.ca</a></p>
+                    <br>
                 </script>
             </div>
             
