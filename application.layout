@@ -134,7 +134,13 @@
         color:white !important;
         
     }
-    
+    .property_logo {
+    position: absolute;
+    right: 50px;
+    top: 0;
+    height: 55px;
+    margin-top: 8px;
+}
     .site_description {
         color:black;
     }
