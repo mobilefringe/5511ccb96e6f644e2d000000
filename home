@@ -120,11 +120,7 @@
         function renderPopup(){
             var popup = getPopups()[0];
             console.log(popup)
-           
-               
-            }
-        }
-
+   
         function renderPageData (){
             renderPopup();
             var repoList = getRepoList();
