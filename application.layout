@@ -465,6 +465,9 @@
 <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.5/validator.js"></script>
 
 <script>
+    var current_year = moment().year();
+    $("#current_year").text(current_year);
+
     function show_results(id){
         if ( $("#"+id+"_results").is(":visible")){
             $("#"+id+"_results").slideUp();
