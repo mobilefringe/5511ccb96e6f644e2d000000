@@ -1,3 +1,11 @@
+<style>
+    .inside_banner_image {
+    width: 562px;
+    margin-bottom: 36px;
+    height:auto;
+}
+</style>
+
 <div id="loading_screen">
     <img alt="loading" src="//kodekloud.s3.amazonaws.com/sites/5447ebb66e6f641987020000/3604f5c26997bea3de504de139debcec/loading.gif"/>
 </div>
