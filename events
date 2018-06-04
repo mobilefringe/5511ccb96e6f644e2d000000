@@ -13,7 +13,7 @@
     </div>
     <div class="inside_page_content">
         <div class="left_column">
-            <img class="inside_banner_image" alt="banner" src="//codecloud.cdn.speedyrails.net/sites/57f677ea6e6f645238020000/image/png/1458752130000/banner4.png"/>
+            <img class="inside_banner_image" alt="" src="//codecloud.cdn.speedyrails.net/sites/57f677ea6e6f645238020000/image/png/1458752130000/banner4.png"/>
             <div class="promo_list_div" id="promo_list_container">
                 <script id="promo_list_template" type="x-tmpl-mustache/text">
                     <div class="promo_inside_content">
