@@ -89,35 +89,7 @@
                     <p class="directory_content">{{name}}</p>
                     <p class="directory_content">{{address1}}</p>
                     <p class="directory_content">{{city}}, {{province_state}} {{postal_code}}</p>
-                     <br>
-                     <p class="directory_content"><strong>Management Office</strong> 
-                    <br>Phone: 613-748-7767
-                    <br>Fax: 613-748-3602
-                    <br>Office Hours:
-                    <br>Mon-Fri 9am-5pm</p>
-                    <br>
-                     <p class="directory_content"><strong>Gary Hurley</strong> 
-                    <br>Senior Property Manager
-                    <br>613-742-3774
-                    <br><a href="mailto:gary.hurley@fcrms.ca">gary.hurley@fcrms.ca</a>
-                   </p>
-                    <br>
-                   <p class="directory_content"><strong>Angela Hynes</strong> 
-                   <br>Property Administrator   
-                   <br>613-742-3771
-                   <br><a href="mailto:Angela.hynes@fcrms.ca" target="_blank">Angela.hynes@fcrms.ca</a></p>
-                   <br>
-                  
-                   <p class="directory_content"><strong>Christina DeRyke</strong> 
-                   <br>Property Administrator & <br>Temporary Leasing 
-                   <br>613-742-3773
-                   <br> <a href="mailto:Christina.deryke@fcrms.ca">Christina.deryke@fcrms.ca</a></p>
-                    <br>
-                       <p class="directory_content"><strong>Permanent Leasing</strong> 
-                   <br>Demetri Tsigos
-                     <br>Director of Leasing, Eastern Canada
-                   <br> <a href="mailto:demetri.tsigos@fcr.ca">demetri.tsigos@fcr.ca</a>
-                   <br>514-332-0031</p>
+                     <div id="mm_page_content" class="directory_content"></div>
                 </script>
             </div>
             
