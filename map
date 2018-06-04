@@ -80,7 +80,7 @@
             <li class="active">Centre Map</li>
         </ul>
     </nav>
-    <div class="page_banner">Centre Map</div>
+    <div class="page_banner"><h2>Centre Map</h2></div>
     <div style="overflow:hidden;height:400px;margin:5px">
         <select id="storelist_container" class="pull-left storelist_dd">
             <option disabled selected>Select a Store</option>
