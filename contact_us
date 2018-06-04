@@ -22,7 +22,7 @@
                         <p class="directory_content">{{address1}}</p>
                         <p class="directory_content">{{city}}, {{province_state}} {{postal_code}}</p>
                         <br>
-                        <div id="mm_page_content" class="directory_content"></div>
+                        <div id="mm_page_content_m" class="directory_content"></div>
                     </script>
                 </div>
             </div>
