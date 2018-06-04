@@ -102,18 +102,18 @@
 <style>
     /*custom styles*/
     a .directory_content:hover{
-        color: #6882af !important;
+        color: #43597f !important;
     }
     /*hyperlinks*/
     a{
-        color:#6882af;
+        color:#43597f;
         text-decoration:inherit;
     }
     
 
     /*hyperlink hover color*/
     a:hover{
-        color: #6882af !important;
+        color: #43597f !important;
     }
     
     body{
@@ -201,11 +201,11 @@
     }
     /*inside page banners*/
     .page_banner{
-        background: #6882af;
+        background: #43597f;
     }
     
     #description_section{
-        background:#6882af;
+        background:#43597f;
     }
     
     .section_header{}
