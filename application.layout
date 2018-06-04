@@ -281,14 +281,6 @@
                         </li>
                         <li><a href="/events">Events</a></li>
                         <li><a href="/promotions">Promotions</a></li>
-                        <!--<li><a href="#" onclick="javascript:toggle_submenu('leasing_dd');">Leasing <span class="caret"></span></a>-->
-                        <!--    <div id="leasing_dd" class="submenu" style="display:none">-->
-                        <!--        <ul>-->
-                        <!--            <li><a href="/leasing">Leasing</a></li>-->
-                        <!--            <li><a href="/photos">Photos</a></li>-->
-                        <!--        </ul>    -->
-                        <!--    </div>-->
-                        <!--</li>-->
                         <li><a href="#" onclick="javascript:toggle_submenu('contact_dd');">Contact Us <span class="caret"></span></a>
                             <div id="contact_dd" class="submenu" style="display:none">
                                 <ul>
