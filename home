@@ -166,7 +166,8 @@
                 controlNav: true,
                 directionNav: true,        
                 prevText: "",
-                nextText: ""
+                nextText: "",
+                pauseOnHover: true
             });
         }
         
