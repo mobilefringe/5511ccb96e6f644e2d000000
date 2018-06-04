@@ -73,11 +73,13 @@
 </div>
 
 <div  id="main_content" style="display:none">
-    <ul class="breadcrumb">
+    <nav>
+        <ul class="breadcrumb">
         <li><a href="/home">Home</a> </li>
         <li><a href="/stores">Store Directory</a></li>
         <li class="active">Centre Map</li>
     </ul>
+    </nav>
     <div class="page_banner">Centre Map</div>
     <div style="overflow:hidden;height:400px;margin:5px">
         <select id="storelist_container" class="pull-left storelist_dd">
