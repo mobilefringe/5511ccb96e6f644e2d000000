@@ -12,9 +12,9 @@
 <div  id="main_content" style="display:none">
     <nav>
         <ul class="breadcrumb">
-        <li><a href="/home">Home</a> </li>
-        <li class="active">Store Directory</li>
-    </ul>
+            <li><a href="/home">Home</a> </li>
+            <li class="active">Store Directory</li>
+        </ul>
     </nav>
     <div class="page_banner">
         store directory
