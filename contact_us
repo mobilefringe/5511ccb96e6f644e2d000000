@@ -149,8 +149,7 @@
             var pages_json = prefix+"/pages/merivale-contact-us.json"
             $.getJSON(pages_json).done(function(data) {
                 $('#mm_title').html(data.title);
-                // $('#mm_title_phone').html(data.title);
-                // $('#mm_title_location').html(data.title);
+                $('#mm_page_content').html(data.body);
                 $('#mm_page_content').html(data.body);
             }).fail(function(jqXHR) {
                 if (jqXHR.status == 404) {
