@@ -36,7 +36,7 @@
        {{#description}}<h3 class="site_description">{{description}}</h3>{{/description}}
     </script>
 </section>
-<!--the welcome box colour : #98add0 (outside)   #d2d9e9 (inside)-->
+
 <div class="main">
      <div class="container" style="padding-right:0;padding-left:0">
             
