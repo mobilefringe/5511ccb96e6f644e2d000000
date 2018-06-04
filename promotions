@@ -4,9 +4,9 @@
 <div  id="main_content" style="display:none">
     <nav>
         <ul class="breadcrumb">
-        <li><a href="/home">Home</a> </li>
-        <li class="active">Promotions</li>
-    </ul>
+            <li><a href="/home">Home</a> </li>
+            <li class="active">Promotions</li>
+        </ul>
     </nav>
     <div class="page_banner">
         Promotions
