@@ -161,15 +161,23 @@
     }
     
     .site_welcome_msg{
-        font-size:22px !important;
-        margin-top:0 !important;
-        line-height:20px !important;
-    }
-    .site_description{
-        font-size:15px !important;
-        line-height:20px !important;
-        margin-bottom:0 !important;
-    }
+            font-size:22px !important;
+            margin-top:0 !important;
+            line-height:20px !important;
+            text-transform: uppercase;
+        }
+        .site_description{
+            font-size:15px !important;
+            line-height:20px !important;
+            margin-bottom:0 !important;
+            text-transform: none;
+        }
+        .flex-control-nav {
+            background: #fff;
+        }
+        .flex-control-paging li a {
+            color : #000;
+        }
     /*social media box color*/
     #social_media_wrapper{
         background:#355995;
