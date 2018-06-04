@@ -4,10 +4,10 @@
 <div  id="main_content" style="display:none">
     <nav>
         <ul class="breadcrumb">
-        <li><a href="/home">Home</a> </li>
-        <li><a href="/home">Contact Us</a> </li>
-        <li class="active">Find Us</li>
-    </ul>
+            <li><a href="/home">Home</a> </li>
+            <li><a href="/home">Contact Us</a> </li>
+            <li class="active">Find Us</li>
+        </ul>
     </nav>
     <div class="page_banner">
         Find Us
