@@ -24,10 +24,10 @@
 <div  id="main_content" style="display:none">
     <nav>
         <ul class="breadcrumb">
-        <li><a href="/home">Home</a> </li>
-        <li><a href="/leasing">Leasing</a> </li>
-        <li class="active">Photos</li>
-    </ul>
+            <li><a href="/home">Home</a> </li>
+            <li><a href="/leasing">Leasing</a> </li>
+            <li class="active">Photos</li>
+        </ul>
     </nav>
     <div class="page_banner">
         Photos
