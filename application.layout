@@ -215,10 +215,10 @@
         color: #355995 ;
     }
     
-    .navbar .nav li a:hover {
-        color:#d9f1fb !important;
+    /*.navbar .nav li a:hover {*/
+    /*    color:#d9f1fb !important;*/
     
-    }
+    /*}*/
      .site-map-section a:hover {
          color:#d9f1fb !important;
      }
